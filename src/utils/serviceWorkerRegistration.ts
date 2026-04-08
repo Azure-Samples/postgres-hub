@@ -6,7 +6,7 @@
 export function register(): void {
   if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-      const swUrl = '/postgres-appdev-hub/service-worker.js';
+      const swUrl = '/postgres-hub/service-worker.js';
 
       navigator.serviceWorker
         .register(swUrl)

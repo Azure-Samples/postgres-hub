@@ -45,7 +45,7 @@ The **Application Developer Hub for Azure PostgreSQL** is a curated, filterable 
 - Videos and blog posts
 - Learning paths for structured skill-building
 
-**Live site:** `https://azure-samples.github.io/postgres-appdev-hub/`
+**Live site:** `https://azure-samples.github.io/postgres-hub/`
 
 **Tech stack at a glance:**
 
@@ -311,8 +311,8 @@ customFields: {
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Azure-Samples/postgres-appdev-hub.git
-cd postgres-appdev-hub
+git clone https://github.com/Azure-Samples/postgres-hub.git
+cd postgres-hub
 
 # 2. Install dependencies
 npm install
@@ -321,7 +321,7 @@ npm install
 npm start
 ```
 
-The site opens automatically at `http://localhost:3000/postgres-appdev-hub/`.
+The site opens automatically at `http://localhost:3000/postgres-hub/`.
 
 **Hot reload** is enabled — most changes to `.tsx`, `.ts`, `.css`, or `.json` files are reflected immediately in the browser without a restart.
 
@@ -344,7 +344,7 @@ Output goes to `build/`. If this exits with code 0, the build is clean.
 ### 4.1 Project Layout
 
 ```
-postgres-appdev-hub/
+postgres-hub/
 │
 ├── docusaurus.config.js      ← Site-wide config, Quick Links, Learning Paths, Community section
 ├── constants.js              ← Shared constants (cookie label/id)
@@ -596,7 +596,7 @@ Steps:
 7. Deploy to GitHub Pages via `actions/deploy-pages`
 
 The deployment target is the `gh-pages` branch. The live URL is:  
-`https://azure-samples.github.io/postgres-appdev-hub/`
+`https://azure-samples.github.io/postgres-hub/`
 
 ---
 
@@ -690,7 +690,7 @@ export const PARENT_CHILD_MAP = {
 - Read [Contributing.md](./Contributing.md) before submitting a PR.
 - Use the GitHub issue templates: go to **Issues → New Issue** and choose the **Feedback** template.
 - The floating "Share Feedback" button on the live site opens a pre-filled GitHub issue at:  
-  `https://github.com/Azure-Samples/postgres-appdev-hub/issues/new?template=feedback.md`
+  `https://github.com/Azure-Samples/postgres-hub/issues/new?template=feedback.md`
 - Questions? Email: `AskAzurePostgreSQL@microsoft.com`
 
 ### PR checklist
