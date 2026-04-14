@@ -376,7 +376,13 @@
     "website": "https://learn.microsoft.com/azure/postgresql/flexible-server/azure-pipelines-deploy-database-task",
     "source": "https://learn.microsoft.com/azure/postgresql/flexible-server/azure-pipelines-deploy-database-task",
     "image": "./img/deploy-using-az-pipeline.png",
-    "tags": ["documentation", "app-dev", "devops", "how-to", "flexibleserver"],
+    "tags": [
+      "documentation",
+      "app-dev",
+      "devops",
+      "how-to",
+      "flexibleserver"
+    ],
     "date": "2024-10-1",
     "priority": "P1"
   },
@@ -434,7 +440,13 @@
     "website": "https://learn.microsoft.com/azure/app-service/tutorial-java-tomcat-connect-managed-identity-postgresql-database",
     "source": "https://learn.microsoft.com/azure/app-service/tutorial-java-tomcat-connect-managed-identity-postgresql-database",
     "image": "./img/deploy-tomcat-app.png",
-    "tags": ["documentation", "java", "app-dev", "flexibleserver", "tutorial"],
+    "tags": [
+      "documentation",
+      "java",
+      "app-dev",
+      "flexibleserver",
+      "tutorial"
+    ],
     "date": "2024-06-05",
     "priority": "P1"
   },
@@ -465,7 +477,13 @@
     "website": "https://learn.microsoft.com/azure/container-apps/tutorial-java-quarkus-connect-managed-identity-postgresql-database",
     "source": "https://learn.microsoft.com/azure/container-apps/tutorial-java-quarkus-connect-managed-identity-postgresql-database",
     "image": "./img/deploy-java-quarkus-container.png",
-    "tags": ["documentation", "java", "app-dev", "flexibleserver", "tutorial"],
+    "tags": [
+      "documentation",
+      "java",
+      "app-dev",
+      "flexibleserver",
+      "tutorial"
+    ],
     "date": "2025-02-03",
     "priority": "P1"
   },
@@ -828,7 +846,10 @@
     "website": "https://learn.microsoft.com/training/modules/perform-sentiment-analysis-opinion-mining-azure-database-postgresql/",
     "source": "https://learn.microsoft.com/training/modules/perform-sentiment-analysis-opinion-mining-azure-database-postgresql/",
     "image": "./img/azure-sentiment-analysis.png",
-    "tags": ["flexibleserver", "genai"]
+    "tags": [
+      "flexibleserver",
+      "genai"
+    ]
   },
   {
     "title": "Extract Insights using Azure AI Language and Azure Database for PostgreSQL",
@@ -836,7 +857,10 @@
     "website": "https://learn.microsoft.com/training/modules/extract-insights-using-azure-ai-language-azure-database-postgresq/",
     "source": "https://learn.microsoft.com/training/modules/extract-insights-using-azure-ai-language-azure-database-postgresq/",
     "image": "./img/azure-ai-insights.png",
-    "tags": ["flexibleserver", "genai"]
+    "tags": [
+      "flexibleserver",
+      "genai"
+    ]
   },
   {
     "title": "Translate Text with Azure AI Translator and Azure Database for PostgreSQL",
@@ -844,7 +868,10 @@
     "website": "https://learn.microsoft.com/training/modules/translate-text-azure-ai-translator-azure-database-postgresql/",
     "source": "https://learn.microsoft.com/training/modules/translate-text-azure-ai-translator-azure-database-postgresql/",
     "image": "./img/azure-ai-translator.png",
-    "tags": ["flexibleserver", "genai"]
+    "tags": [
+      "flexibleserver",
+      "genai"
+    ]
   },
   {
     "title": "Use Azure Machine Learning for Inferencing from Azure Database for PostgreSQL",
@@ -852,7 +879,12 @@
     "website": "https://learn.microsoft.com/training/modules/use-azure-machine-learning-inferencing-azure-database-postgresql/",
     "source": "https://learn.microsoft.com/training/modules/use-azure-machine-learning-inferencing-azure-database-postgresql/",
     "image": "./img/use-az-ml.png",
-    "tags": ["flexibleserver", "genai", "training", "azure-ai-extension"],
+    "tags": [
+      "flexibleserver",
+      "genai",
+      "training",
+      "azure-ai-extension"
+    ],
     "priority": "P1"
   },
   {
@@ -1638,7 +1670,12 @@
     "website": "https://techcommunity.microsoft.com/blog/adforpostgresql/pgbouncer-best-practices-in-azure-database-for-postgresql-%E2%80%93-part-1/4453323",
     "source": "https://techcommunity.microsoft.com/blog/adforpostgresql/pgbouncer-best-practices-in-azure-database-for-postgresql-%E2%80%93-part-1/4453323",
     "image": "./img/pgbouncer.png",
-    "tags": ["flexibleserver", "app-dev", "best-practices", "blog"],
+    "tags": [
+      "flexibleserver",
+      "app-dev",
+      "best-practices",
+      "blog"
+    ],
     "date": "2025-10-3",
     "priority": "P1",
     "meta": {
@@ -1684,5 +1721,20 @@
     ],
     "date": "2025-11-21",
     "priority": "P0"
+  },
+  {
+    "title": "Connect Azure Database for PostgreSQL to Microsoft Foundry with MCP",
+    "description": "Learn how to integrate Azure Database for PostgreSQL with Microsoft Foundry using Model Context Protocol (MCP) to enable AI agents to interact with your database through natural language queries.",
+    "website": "https://learn.microsoft.com/en-us/azure/postgresql/azure-ai/generative-ai-foundry-integration",
+    "source": "https://learn.microsoft.com/en-us/azure/postgresql/azure-ai/generative-ai-foundry-integration",
+    "image": "./img/placeholder.png",
+    "tags": [
+      "genai",
+      "agents",
+      "connect-&-query",
+      "how-to"
+    ],
+    "priority": "P0",
+    "date": "2026-03-01"
   }
 ]
