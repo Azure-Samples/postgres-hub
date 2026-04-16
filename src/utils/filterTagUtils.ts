@@ -2,10 +2,11 @@ import type { TagType } from "../data/tags";
 import { normalizeLabel } from "./jsUtils";
 
 const PARENT_SPECIFIC_SUB_TAGS: Partial<
-  Record<TagType, Partial<Record<TagType, TagType>>>
+  Record<TagType, Record<string, TagType>>
 > = {
   fundamentals: {
     overview: "fundamentals-overview",
+    "deployment-quickstarts": "getting-started",
   },
   genai: {
     overview: "genai-overview",

@@ -1,7 +1,5 @@
 # Contributing
 
-_We are still working on our contribution guidelines. In the meantime, please feel free to open issues and provide feedback on how to streamline the process._
-
 ## Introduction
 
 This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit <https://cla.opensource.microsoft.com>.
@@ -13,4 +11,8 @@ This project has adopted the Microsoft Open Source Code of Conduct. For more inf
 ## Raising Issues
 
 We very much welcome issues to help us improve the project. When submitting an issue, select the appropriate template and fill out the information requested. This will help us to understand the issue and resolve it as quickly as possible. Be sure to include as much information as you can, including configuration files, logs, and hosting model.
+
+## Making Changes
+
+Not sure where to start or which files to edit? Check out our [Onboarding Guide](./ONBOARDING.md) for a detailed walkthrough of the project structure, what to change, and where to find it.
 

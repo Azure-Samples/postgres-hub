@@ -18,7 +18,8 @@ type Event = {
   title: string;
   description: string;
   date: string;
-  time: string;
+  time?: string;
+  href?: string;
 };
 
 type CardType = {
@@ -78,29 +79,35 @@ const CommunitySupportSection = () => {
                     }
                   >
                     {card.events.length > 0 ? (
-                      card.events.map((event, eventIdx) => (
-                        <div key={eventIdx} className={styles.eventTile}>
-                          <div className={styles.eventTitle}>{event.title}</div>
-                          <div className={styles.eventDescription}>
-                            {event.description}
-                          </div>
-                          <div className={styles.eventDateTime}>
-                            <span className={styles.eventDate}>
-                              {new Date(event.date).toLocaleDateString(
-                                "en-US",
-                                {
-                                  weekday: "short",
-                                  month: "short",
-                                  day: "numeric",
-                                },
+                      card.events.map((event, eventIdx) => {
+                        const tileContent = (
+                          <>
+                            <div className={styles.eventTitle}>{event.title}</div>
+                            <div className={styles.eventDescription}>
+                              {event.description}
+                            </div>
+                            <div className={styles.eventDateTime}>
+                              <span className={styles.eventDate}>
+                                {event.date}
+                              </span>
+                              {event.time && (
+                                <span className={styles.eventTime}>
+                                  {event.time}
+                                </span>
                               )}
-                            </span>
-                            <span className={styles.eventTime}>
-                              {event.time}
-                            </span>
+                            </div>
+                          </>
+                        );
+                        return event.href ? (
+                          <a key={eventIdx} href={event.href} target="_blank" rel="noopener noreferrer" className={styles.eventTile} style={{ textDecoration: 'none', color: 'inherit' }}>
+                            {tileContent}
+                          </a>
+                        ) : (
+                          <div key={eventIdx} className={styles.eventTile}>
+                            {tileContent}
                           </div>
-                        </div>
-                      ))
+                        );
+                      })
                     ) : (
                       <div className={styles.emptyState}>
                         <LucideIcons.Calendar

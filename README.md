@@ -1,74 +1,52 @@
-# Application Developer Hub for Azure PostgreSQL
+# PostgreSQL Hub for Azure Developers
 
-This repository is your one-stop shop for Azure PostgreSQL resources, including:
+Your one‑stop shop for everything Application Development with PostgreSQL on Azure, especially for building AI applications and agents:
 
-- GitHub Samples: Code in Python, JavaScript, and C#
-- Docs & Articles: In-depth guides and insights
-- Videos & Blogs: Engaging, informative content
-- Data Migration Tools: Smooth transition utilities
-
-And more!
-
-Explore all things Azure PostgreSQL in one place!
+- **Samples and solution accelerators**: Production-ready code templates and reference architectures in Python, JavaScript, and C# to jumpstart your projects
+- **Documentation**: In-depth guides and tutorials
+- **Videos & Blogs**: Engaging, informative content
+- **Workshops & Trainings**: Hands-on sessions to build practical skills with PostgreSQL on Azure
+- **Learning pathways**: Accelerate your PostgreSQL development journey on Azure
+- **Community support**: Connect with the community and get help
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ## How to Contribute
 
-Contributions to this project are more than welcome. Make sure you check out the following documents, to successfully contribute to the project:
+Want to contribute? We'd love to have you on board. Check out the [Contributing](./CONTRIBUTING.md) guide to get started.
 
-- [Contributing](./CONTRIBUTING.md)
+Even if you're not ready to contribute code, your feedback is valuable! You can share your thoughts by [opening an issue](https://github.com/Azure-Samples/postgres-hub/issues/new?template=feedback.md) and selecting the **Feedback** template.
 
-## Developer Onboarding
+### Updating the Website
 
-### Content Management
+Need to make changes to the site? Here's a quick reference for where to look. 
 
-- **Add/Remove Resources**: Update `static/templates.json` to add new tutorials, samples, or documentation links to the resource library
-- **Configure Site Content**: Edit `docusaurus.config.js` to modify Quick Links, Pathways, Community Sections (Events & Webinars), and site metadata
-- **Create New Tags**: Add tag definitions to `src/data/tags.tsx` for new filtering categories and content organization
+| What you want to do | Where to make changes |
+|---|---|
+| Add or remove resources (tutorials, samples, docs) | `static/templates.json` |
+| Configure Quick Links, Pathways, Community Sections, or site metadata | `docusaurus.config.js` |
+| Create new filtering tags | `src/data/tags.tsx` |
+| Modify UI components (layout, styling, functionality) | `src/components/` |
+| Update site navigation or header | `src/theme/Navbar/` |
+| Customize visual styles and branding | CSS modules in `src/` |
 
-### Component Updates
+For more detailed guidance, see [ONBOARDING.md](./ONBOARDING.md).
 
-- **Modify UI Components**: Update React components in `src/components/` for layout, styling, or functionality changes
-- **Update Navigation**: Edit `src/theme/Navbar/` files to modify site navigation, menu items, or header behavior
-- **Customize Styling**: Update CSS modules or custom styles to change visual appearance and branding
+### Getting Started
 
-## Getting Started
+This site is built with [Docusaurus 2](https://docusaurus.io/). Follow the steps below to set up a local development environment and preview your changes.
 
-### Installation
+**Pre-requisites**: You'll need [Node.js](https://nodejs.org/) (v18+) and [Yarn](https://yarnpkg.com/) installed.
 
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
+```bash
+yarn          # Install dependencies
+yarn start    # Start local dev server with live reload
+yarn build    # Generate production build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+To deploy to GitHub Pages:
 
-### Deployment
-
-Using SSH:
-
+```bash
+USE_SSH=true yarn deploy                    # Using SSH
+GIT_USER=<Your GitHub username> yarn deploy # Not using SSH
 ```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

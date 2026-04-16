@@ -138,7 +138,7 @@
 }
 .cardActions {
   display: flex;
-  gap: 12px;
+  gap: 8px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -149,9 +149,9 @@
   color: #fff;
   border: none;
   border-radius: 6px;
-  padding: 4px 16px;
-  height: 32px;
-  font-size: 0.98rem;
+  padding: 2px 12px;
+  height: 28px;
+  font-size: 0.85rem;
   font-weight: 500;
   text-decoration: none;
   transition: background 0.18s;
@@ -170,8 +170,8 @@
   color: #5e4d5c;
   border: 1.5px solid #b3b8c2;
   border-radius: 6px;
-  padding: 4px 12px;
-  font-size: 0.98rem;
+  padding: 2px 10px;
+  font-size: 0.85rem;
   font-weight: 500;
   text-decoration: none;
   transition: border 0.18s, color 0.18s, background 0.18s;

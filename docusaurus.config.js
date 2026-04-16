@@ -9,38 +9,38 @@ import { manageCookieLabel } from "./constants.js";
 const config = {
   customFields: {
     description:
-      "Build scalable, secure, and high-performance applications with Azure PostgreSQL. Get started with our comprehensive documentation, samples, and community resources.",
+      "Build scalable, secure, intelligent, and high-performance applications with PostgreSQL on Azure. Get started with our comprehensive documentation, samples, and community resources.",
     disclaimerSection: {
-      title: "Azure PostgreSQL Developer Hub",
+      title: "PostgreSQL Hub for Azure Developers",
       description:
-        "Build scalable, secure, and high-performance applications with Azure PostgreSQL. Get started with our comprehensive documentation, samples, and community resources.",
+        "Build scalable, secure, intelligent, and high-performance applications with PostgreSQL on Azure. Get started with our comprehensive documentation, samples, and community resources.",
     },
     quickLinks: [
       {
         icon: "img/postgres.svg",
         color: "#9a14fa",
-        label: "Azure DB for PostgreSQL Homepage",
-        description: "Official Azure PostgreSQL product page and pricing",
+        label: "Azure Database for PostgreSQL Homepage",
+        description: "Explore product features, documentation, and pricing",
         href: "http://aka.ms/postgres",
       },
       {
         icon: "img/horizon-db.svg",
         label: "Azure HorizonDB Homepage",
-        description: "Explore product specs, architecture, and documentation",
+        description: "Explore product overview, features, and documentation",
         href: "https://aka.ms/AzureHorizonDB",
       },
       {
         icon: "FileText",
         color: "#6f2c91",
         label: "Documentation",
-        description: "Complete guides and API references",
+        description: "Concepts, tutorials, guides and API references",
         href: "https://aka.ms/postgresqldocs",
       },
       {
         icon: "NotepadText",
         color: "#04a841",
         label: "Blog",
-        description: "Latest updates and insights",
+        description: "Product updates, customer stories, and best practices.",
         href: "https://aka.ms/azurepostgresblog",
       },
       {
@@ -53,7 +53,7 @@ const config = {
       {
         icon: "BookOpen",
         color: "#1960fc",
-        label: "eBook",
+        label: "AI eBook",
         description: "Guide to building AI apps and agents",
         href: "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/azure/acom/documents/pdfs/en-us/azure-postgresql-no-ai-without-data-ebook-082225-aac.pdf",
       },
@@ -62,7 +62,7 @@ const config = {
         color: "#9a14fa",
         label: "Try PostgreSQL for free",
         description: "Free access for 12 months with an Azure free account.",
-        href: "https://aka.ms/try-postgresql-free",
+        href: "https://azure.microsoft.com/pricing/free-services/",
       },
     ],
     learningPathsSection: {
@@ -72,10 +72,10 @@ const config = {
           iconColor: "#0078d4",
           title: "Developing Core Applications",
           description:
-            "Master the fundamentals of building production-ready applications with PostgreSQL Flexible Server on Azure",
+            "Master the fundamentals of building production-ready applications with PostgreSQL on Azure",
           level: "Beginner",
           duration: "2-3 hours",
-          tags: ["Database Setup", "Connection Management"],
+          tags: ["Database Setup", "Connection Management", "App Integrations", "Best Practices"],
           filterTag: "developing-core-applications",
         },
         {
@@ -83,10 +83,10 @@ const config = {
           iconColor: "#157f15",
           title: "Building Generative AI Apps",
           description:
-            "Learn to integrate AI capabilities with PostgreSQL vector extensions and build intelligent applications",
+            "Build intelligent apps with PostgreSQL using vector search, in-SQL AI functions, and popular AI frameworks.",
           level: "Intermediate",
           duration: "3-4 hours",
-          tags: ["Vector Extensions", "AI Integration"],
+          tags: ["Vector Extension", "Foundry Integration", "AI Functions", "RAG"],
           filterTag: "building-genai-apps",
         },
         {
@@ -94,10 +94,10 @@ const config = {
           iconColor: "#5c2d91",
           title: "Building AI Agents",
           description:
-            "Create sophisticated AI agents that leverage PostgreSQL for data persistence and workflow automation",
-          level: "Advanced",
-          duration: "4-5 hours",
-          tags: ["Agent Architecture", "Workflow Management"],
+            "Create sophisticated AI agents that leverage PostgreSQL for knowledge retrieval, memory and data persistence.",
+          level: "Intermediate",
+          duration: "2-3 hours",
+          tags: ["Agent Architecture", "MCP", "Foundry Integration", "Multi-agent Coordination"],
           filterTag: "building-ai-agents",
         },
       ],
@@ -105,11 +105,11 @@ const config = {
     communitySupportSection: {
       title: "Community & Support",
       description:
-        "Connect with fellow developers, get support, and contribute to the Azure PostgreSQL ecosystem",
+        "Connect with fellow developers, get support, and stay tuned with the latest updates in the PostgreSQL ecosystem on Azure.",
       cards: [
         {
           title: "Contact Us",
-          desc: "Have questions or need help? Our team is here to support you.",
+          desc: "Reach out to us for questions, feedback, or support.",
           icon: "Mail",
           actions: [
             {
@@ -124,6 +124,12 @@ const config = {
               variant: "outlined",
               icon: "ExternalLink",
             },
+            {
+              label: "Submit Your Ideas",
+              href: "https://aka.ms/pgfeedback",
+              variant: "outlined",
+              icon: "Lightbulb",
+            }
           ],
         },
         {
@@ -145,20 +151,14 @@ const config = {
             },
           ],
         },
-        // {
-        //   title: "Join the Community",
-        //   desc: "Join our exclusive developer community for Azure PostgreSQL with early access to features.",
-        //   icon: "Users",
-        //   iconColor: "#20b256",
-        //   iconBg: "#e6f7ed",
-        //   actions: [
-        //     { label: "Forum", href: "/forum" },
-        //     {
-        //       label: "Discord",
-        //       href: "https://discord.com/invite/azurepostgres",
-        //     },
-        //   ],
-        // },
+        {
+          title: "Join the Community",
+          desc: "Coming soon: A community forum for PostgreSQL app developers on Azure. Stay tuned.",
+          icon: "Users",
+          iconColor: "#20b256",
+          iconBg: "#e6f7ed",
+          actions: [],
+        },
         // {
         //   title: "How to Contribute",
         //   desc: "Help improve Azure PostgreSQL documentation, samples, and tooling.",
@@ -167,16 +167,16 @@ const config = {
         //   iconBg: "#edeafd",
         //   actions: [{ label: "Contribute Guide", href: "/contribute" }],
         // },
-        {
-          title: "Submit Your Ideas",
-          desc: "Share feedback, request features, and vote on improvements to Azure PostgreSQL.",
-          icon: "Lightbulb",
-          iconColor: "#9a15fa",
-          iconBg: "#f5e6fd",
-          actions: [
-            { label: "Submit Idea", href: "https://aka.ms/pgfeedback" },
-          ],
-        },
+        // {
+        //   title: "Submit Your Ideas",
+        //   desc: "Share feedback, request features, and vote on improvements to Azure PostgreSQL.",
+        //   icon: "Lightbulb",
+        //   iconColor: "#9a15fa",
+        //   iconBg: "#f5e6fd",
+        //   actions: [
+        //     { label: "Submit Idea", href: "https://aka.ms/pgfeedback" },
+        //   ],
+        // },
         {
           title: "Events & Webinars",
           desc: "",
@@ -184,13 +184,13 @@ const config = {
           iconColor: "#ea252d",
           iconBg: "#fdeaea",
           events: [
-            // {
-            //   title: "Building AI Apps with PostgreSQL",
-            //   description:
-            //     "Learn to integrate AI capabilities with PostgreSQL vector extensions",
-            //   date: "November 12, 2025",
-            //   time: "2:00 PM PST",
-            // },
+            {
+              title: "POSETTE: An Event for Postgres 2026",
+              description:
+                "A virtual developer event for all things Postgres.",
+              date: "June 16-18, 2026",
+              href: "https://aka.ms/posette"
+            }
             // {
             //   title: "PostgreSQL Performance Optimization",
             //   description:
@@ -205,7 +205,7 @@ const config = {
     },
   },
 
-  title: "Application Developer Hub",
+  title: "PostgreSQL Hub",
   tagline: "Discover - Create - Contribute",
   url: "https://azure-samples.github.io",
   baseUrl: "/postgres-hub/",
@@ -242,7 +242,7 @@ const config = {
       },
       navbar: {
         hideOnScroll: true,
-        title: "Application Developer Hub",
+        title: "PostgreSQL Hub",
         logo: {
           alt: "Azure PostgreSQL App logo",
           src: "img/logo.png",
@@ -352,14 +352,14 @@ const config = {
         blog: {
           showReadingTime: true,
           routeBasePath: "blog",
-          blogTitle: "Application Developer Hub Blog",
+          blogTitle: "PostgreSQL Hub Blog",
           blogDescription:
             "Latest updates, community stories, and developer news",
           feedOptions: {
             type: "all", // 'rss' | 'atom' | 'all'
-            title: "Application Developer Hub Blog RSS Feed",
+            title: "PostgreSQL Hub Blog RSS Feed",
             description:
-              "Stay updated with new blog posts from Application Developer Hub",
+              "Stay updated with new blog posts from PostgreSQL Hub for Azure Developers",
             language: "en",
             copyright: `Copyright © ${new Date().getFullYear()} Microsoft`,
           },

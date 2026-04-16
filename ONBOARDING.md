@@ -1,4 +1,4 @@
-# Onboarding Guide — Application Developer Hub for Azure PostgreSQL
+# Onboarding Guide — PostgreSQL Hub for Azure Developers
 
 Welcome! This guide is written for **everyone** — from someone who just wants to fix a typo, to a developer building new features. Start at the section that fits you and work your way forward as needed.
 
@@ -37,7 +37,7 @@ Welcome! This guide is written for **everyone** — from someone who just wants 
 
 ## 1. What Is This Project?
 
-The **Application Developer Hub for Azure PostgreSQL** is a curated, filterable resource gallery hosted on GitHub Pages. It is a single-page Docusaurus 3 site that aggregates:
+The **PostgreSQL Hub for Azure Developers** is a curated, filterable resource gallery hosted on GitHub Pages. It is a single-page Docusaurus 3 site that aggregates:
 
 - Documentation links (Microsoft Learn, official docs)
 - Code samples & solution accelerators
@@ -264,10 +264,10 @@ The large hero section at the top of the page is rendered by **`src/components/g
 The main title and description are hard-coded strings near the top of that file:
 
 ```ts
-const title = "Application Developer Hub";
+const title = "PostgreSQL Hub";
 const description =
   "Discover comprehensive resources, learning pathways, and community support…";
-const subDescription = "for PostgreSQL on Azure";
+const subDescription = "for Azure Developers";
 ```
 
 Edit those strings to change the hero copy.

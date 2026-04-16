@@ -10,10 +10,10 @@ import styles from "./styles.module.css";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import { useHistory, useLocation } from "@docusaurus/router";
 
-const title = "Application Developer Hub";
+const title = "PostgreSQL Hub";
 const description =
   "Discover comprehensive resources, learning pathways, and community support to accelerate your PostgreSQL development journey on Azure.";
-const subDescription = "for PostgreSQL on Azure";
+const subDescription = "for Azure Developers";
 
 export default function ShowcaseCoverPage() {
   const bgUrl = useBaseUrl("/img-optimized/dotted-background-opacity40.png");
@@ -108,7 +108,7 @@ export default function ShowcaseCoverPage() {
           <div className={styles.titleSection}>
             <span className={styles.heroTextWrapper}>
               <Display className={styles.heroTitle}>{title}</Display>
-              <Title3 className={styles.greyText}>{subDescription}</Title3>
+              <Title3 className={styles.greyTextLarge}>{subDescription}</Title3>
             </span>
 
             <Title3 className={styles.centeredDescription}>

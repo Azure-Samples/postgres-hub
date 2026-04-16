@@ -109,45 +109,45 @@ export const Tags: { [type in TagType]: Tag } = {
   //============  FOR REGULAR USE
   // Special Tag
   featured: {
-    label: "Featured Template",
-    description: "This tag is used for featured templates.",
+    label: "Featured Asset",
+    description: "This tag is used for featured assets.",
     color: "orange",
   },
 
   // Language Tags for filtering content
   python: {
     label: "Python",
-    description: "Template contains Python app code",
+    description: "Asset contains Python app code",
     type: "Language",
     color: "blue",
   },
   dotnet: {
     label: ".NET",
-    description: "Template contains .NET app code",
+    description: "Asset contains .NET app code",
     type: "Language",
     color: "purple",
   },
   java: {
     label: "Java",
-    description: "Template contains Java app code",
+    description: "Asset contains Java app code",
     type: "Language",
     color: "red",
   },
   go: {
     label: "Go",
-    description: "Template contains Go app code",
+    description: "Asset contains Go app code",
     type: "Language",
     color: "teal",
   },
   php: {
     label: "PHP",
-    description: "Template contains PHP app code",
+    description: "Asset contains PHP app code",
     type: "Language",
     color: "indigo",
   },
   javascript: {
     label: "JavaScript",
-    description: "Template contains JavaScript app code",
+    description: "Asset contains JavaScript app code",
     type: "Language",
     color: "mustard",
   },
@@ -155,24 +155,24 @@ export const Tags: { [type in TagType]: Tag } = {
   // GenAI Tags for filtering content (subtype)
   agents: {
     label: "Agents",
-    description: "Template implements one or more agents",
+    description: "Asset implements one or more agents",
     type: "GenerativeAI",
     buttonText: "GitHub Repo",
     color: "green",
   },
   rag: {
     label: "RAG",
-    description: "Template implements RAG Pattern",
+    description: "Asset implements RAG Pattern",
     type: "GenerativeAI",
     buttonText: "GitHub Repo",
     color: "green",
   },
 
   fundamentals: {
-    label: "Fundamentals",
-    description: "Fundamental concepts and getting started content",
+    label: "Database Service Fundamentals",
+    description: "Database Service fundamental concepts and getting started content",
     type: "ContentType",
-    subType: [{ label: "Overview" }, { label: "Getting Started" }],
+    subType: [{ label: "Overview" }, { label: "Deployment Quickstarts" }],
     color: "blue",
   },
 
@@ -191,13 +191,13 @@ export const Tags: { [type in TagType]: Tag } = {
 
   overview: {
     label: "Overview",
-    description: "Template provides an overview of capabilities",
+    description: "Asset provides an overview of capabilities",
     type: ["GenerativeAI", "ContentType"],
     color: "slate",
   },
   "fundamentals-overview": {
     label: "Overview",
-    description: "Fundamentals overview content",
+    description: "Database fundamentals overview content",
     type: "ContentType",
     color: "slate",
   },
@@ -250,10 +250,10 @@ export const Tags: { [type in TagType]: Tag } = {
   },
 
   "solution-accelerator": {
-    label: "Solution Accelerator",
-    description: "Solution Accelerators",
+    label: "Solution Accelerator (Sample App)",
+    description: "Sample Apps and Solution Accelerators",
     type: "ResourceType",
-    buttonText: "Solution Accelerator",
+    buttonText: "Solution Accelerator (Sample App)",
     color: "indigo",
   },
 
@@ -370,14 +370,16 @@ export const Tags: { [type in TagType]: Tag } = {
     description: "Integrate with Visual Studio Code",
     color: "teal",
   },
+  
   "best-practices": {
     label: "Best Practices",
     description: "Best Practices for Application Development",
     color: "green",
   },
+
   "getting-started": {
-    label: "Getting Started",
-    description: "Getting Started with Azure Database for PostgreSQL",
+    label: "Deployment Quickstarts",
+    description: "Getting Started with deploying database services",
     color: "slate",
   },
 

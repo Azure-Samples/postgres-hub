@@ -129,7 +129,14 @@
    margin-bottom: 4px
 
 }
-
+.greyTextLarge{
+  text-align: center !important;
+  font-weight: 500 !important;
+  font-size: 35px !important;
+   color: #7b7b7b;
+   margin-bottom: 10px;
+   margin-top: 5px
+}
 .titleSection :global(.fuib-Title3),
 .titleSection .fuib-Title3 {
   text-align: center;
