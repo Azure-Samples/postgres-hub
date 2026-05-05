@@ -380,7 +380,13 @@
     "website": "https://learn.microsoft.com/azure/postgresql/flexible-server/azure-pipelines-deploy-database-task",
     "source": "https://learn.microsoft.com/azure/postgresql/flexible-server/azure-pipelines-deploy-database-task",
     "image": "./img/deploy-using-az-pipeline.png",
-    "tags": ["documentation", "app-dev", "devops", "how-to", "flexibleserver"],
+    "tags": [
+      "documentation",
+      "app-dev",
+      "devops",
+      "how-to",
+      "flexibleserver"
+    ],
     "date": "2024-10-1",
     "priority": "P1"
   },
@@ -438,7 +444,13 @@
     "website": "https://learn.microsoft.com/azure/app-service/tutorial-java-tomcat-connect-managed-identity-postgresql-database",
     "source": "https://learn.microsoft.com/azure/app-service/tutorial-java-tomcat-connect-managed-identity-postgresql-database",
     "image": "./img/deploy-tomcat-app.png",
-    "tags": ["documentation", "java", "app-dev", "flexibleserver", "tutorial"],
+    "tags": [
+      "documentation",
+      "java",
+      "app-dev",
+      "flexibleserver",
+      "tutorial"
+    ],
     "date": "2024-06-05",
     "priority": "P1"
   },
@@ -469,7 +481,13 @@
     "website": "https://learn.microsoft.com/azure/container-apps/tutorial-java-quarkus-connect-managed-identity-postgresql-database",
     "source": "https://learn.microsoft.com/azure/container-apps/tutorial-java-quarkus-connect-managed-identity-postgresql-database",
     "image": "./img/deploy-java-quarkus-container.png",
-    "tags": ["documentation", "java", "app-dev", "flexibleserver", "tutorial"],
+    "tags": [
+      "documentation",
+      "java",
+      "app-dev",
+      "flexibleserver",
+      "tutorial"
+    ],
     "date": "2025-02-03",
     "priority": "P1"
   },
@@ -807,7 +825,12 @@
     "website": "https://learn.microsoft.com/training/modules/use-azure-machine-learning-inferencing-azure-database-postgresql/",
     "source": "https://learn.microsoft.com/training/modules/use-azure-machine-learning-inferencing-azure-database-postgresql/",
     "image": "./img/use-az-ml.png",
-    "tags": ["flexibleserver", "genai", "training", "azure-ai-extension"],
+    "tags": [
+      "flexibleserver",
+      "genai",
+      "training",
+      "azure-ai-extension"
+    ],
     "priority": "P1"
   },
   {
@@ -1562,7 +1585,12 @@
     "website": "https://techcommunity.microsoft.com/blog/adforpostgresql/pgbouncer-best-practices-in-azure-database-for-postgresql-%E2%80%93-part-1/4453323",
     "source": "https://techcommunity.microsoft.com/blog/adforpostgresql/pgbouncer-best-practices-in-azure-database-for-postgresql-%E2%80%93-part-1/4453323",
     "image": "./img/pgbouncer.png",
-    "tags": ["flexibleserver", "app-dev", "best-practices", "blog"],
+    "tags": [
+      "flexibleserver",
+      "app-dev",
+      "best-practices",
+      "blog"
+    ],
     "date": "2025-10-3",
     "priority": "P1",
     "meta": {
@@ -1674,5 +1702,22 @@
     "learningPathTitle": "Get Started for Free with an Azure Free Account",
     "learningPathDescription": "Create and use an Azure Database for PostgreSQL flexible server instance for free using an Azure free account!",
     "priority": "P0"
+  },
+  {
+    "title": "AI functions in the azure_ai extension (Preview)",
+    "description": "Overview of AI functions in the azure_ai extension for Azure Database for PostgreSQL. These functions bring advanced Generative AI (GenAI) functionality directly into SQL workflows, bringing intelligent, model-driven processing natively into the database.",
+    "website": "https://learn.microsoft.com/en-us/azure/postgresql/azure-ai/generative-ai-azure-ai-functions#setup-for-rank-function",
+    "source": "https://learn.microsoft.com/en-us/azure/postgresql/azure-ai/generative-ai-azure-ai-functions#setup-for-rank-function",
+    "image": "./img/placeholder.png",
+    "tags": [
+      "azure-ai-extension",
+      "genai",
+      "overview",
+      "developing-core-applications"
+    ],
+    "priority": "P0",
+    "date": "2026-04-29",
+    "learningPathTitle": "Developing Core Applications with AI in PostgreSQL",
+    "learningPathDescription": "Learn how to integrate advanced generative AI functions into PostgreSQL applications to build intelligent, model-driven database workflows."
   }
 ]
