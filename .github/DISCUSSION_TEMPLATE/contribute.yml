@@ -1,0 +1,41 @@
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: What would you like to contribute?
+      options:
+        - Sample app
+        - Tutorial
+        - Blog
+        - Documentation improvement
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: service
+    attributes:
+      label: What service does this relate to?
+      options:
+        - Azure Database for PostgreSQL
+        - Azure HorizonDB
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Brief description
+      placeholder: "What does it cover? Who would benefit from it?"
+    validations:
+      required: true
+  - type: dropdown
+    id: collaboration
+    attributes:
+      label: How would you like to collaborate?
+      options:
+        - Submit a PR
+        - Co-author with maintainers
+        - Proposing the idea for now
+        - Reach out to us via email for a deeper conversation
+        - Other
+    validations:
+      required: true

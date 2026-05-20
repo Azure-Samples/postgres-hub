@@ -1,0 +1,31 @@
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What did you build?
+      placeholder: "A brief description of your app, agent, or project."
+    validations:
+      required: true
+  - type: dropdown
+    id: service
+    attributes:
+      label: What service are you using?
+      options:
+        - Azure Database for PostgreSQL
+        - Azure HorizonDB
+    validations:
+      required: true
+  - type: textarea
+    id: features
+    attributes:
+      label: Key features or capabilities used
+      placeholder: "e.g., vector search, azure_ai AI functions, pg_diskann, etc."
+    validations:
+      required: false
+  - type: textarea
+    id: learnings
+    attributes:
+      label: Anything you learned along the way?
+      placeholder: "Tips, surprises, or lessons worth sharing with the community."
+    validations:
+      required: false

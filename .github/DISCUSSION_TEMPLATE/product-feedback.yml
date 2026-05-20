@@ -1,0 +1,24 @@
+body:
+  - type: dropdown
+    id: service
+    attributes:
+      label: What service are you using?
+      options:
+        - Azure Database for PostgreSQL
+        - Azure HorizonDB
+    validations:
+      required: true
+  - type: textarea
+    id: feature
+    attributes:
+      label: What feature or capability is this about?
+      placeholder: "e.g., vector search, azure_ai AI functions, pg_diskann, agents, application integration,etc."
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What's your feedback?
+      placeholder: "Tell us what worked well, what didn't, or what you'd like to see improved."
+    validations:
+      required: true
