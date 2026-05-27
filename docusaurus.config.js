@@ -109,7 +109,7 @@ const config = {
       cards: [
         {
           title: "Contact Us",
-          desc: "Reach out to us for questions, feedback, or support.",
+          desc: "Reach out to us for questions or support.",
           icon: "Mail",
           actions: [
             {
@@ -138,26 +138,44 @@ const config = {
           icon: "Bell",
           actions: [
             {
+              label: "LinkedIn",
               href: "https://www.linkedin.com/company/azure-database-for-postgresql/",
+              variant: "outlined",
               icon: "img/brand-linkedin.svg",
             },
             {
+              label: "X",
               href: "https://x.com/AzureDBPostgres",
+              variant: "outlined",
               icon: "X",
             },
             {
+              label: "Blog",
               href: "https://aka.ms/azurepostgresblog",
+              variant: "outlined",
               icon: "BookOpen",
             },
           ],
         },
         {
           title: "Join the Community",
-          desc: "Coming soon: A community forum for PostgreSQL app developers on Azure. Stay tuned.",
+          desc: "Share feedback, connect and collaborate with Microsoft engineers and other developers.",
           icon: "Users",
           iconColor: "#20b256",
           iconBg: "#e6f7ed",
-          actions: [],
+          actions: [
+            {
+              label: "Developer Forum",
+              href: "https://github.com/Azure-Samples/postgres-hub/discussions",
+              variant: "outlined",
+              icon: "MessagesSquare",
+            },
+            {
+              label: "Real-time chat (Coming soon)",
+              variant: "outlined",
+              icon: "Radio",
+            },
+          ],
         },
         // {
         //   title: "How to Contribute",
@@ -185,19 +203,26 @@ const config = {
           iconBg: "#fdeaea",
           events: [
             {
+              title: "[Microsoft Build 2026] From rows to reasoning: Designing databases for AI apps and agents",
+              description:
+                "Demo-rich session covering latest innovations in Azure HorizonDB for AI apps built directly in the database.",
+              date: "June 2-3, 2026",
+              href: "https://build.microsoft.com/en-US/sessions/BRK223"
+            },
+            {
+              title: "[Microsoft Build 2026] Simplify app dev with cloud-native PostgreSQL in Azure HorizonDB",
+              description:
+                "Learn to run hybrid vector queries, call managed AI models from SQL, and prototype agentic workflows.",
+              date: "June 2-3, 2026",
+              href: "https://build.microsoft.com/en-US/sessions/DEM364"
+            },
+            {
               title: "POSETTE: An Event for Postgres 2026",
               description:
                 "A virtual developer event for all things Postgres.",
               date: "June 16-18, 2026",
               href: "https://aka.ms/posette"
             }
-            // {
-            //   title: "PostgreSQL Performance Optimization",
-            //   description:
-            //     "Best practices for optimizing your PostgreSQL database performance",
-            //   date: "December 5, 2025",
-            //   time: "10:00 AM PST",
-            // },
           ],
           actions: [],
         },

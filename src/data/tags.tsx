@@ -226,7 +226,7 @@ export const Tags: { [type in TagType]: Tag } = {
     color: "green",
   },
   "azure-ai-extension": {
-    label: "Azure AI Extension",
+    label: "AI functions",
     description: "Template integrates with Azure AI services",
     type: ["GenerativeAI", "ContentType"],
     color: "brown",
@@ -324,7 +324,7 @@ export const Tags: { [type in TagType]: Tag } = {
       { label: "Agents" },
       { label: "Semantic Search" },
       { label: "Graph" },
-      { label: "Azure AI Extension" },
+      { label: "AI functions" },
     ],
   },
 
