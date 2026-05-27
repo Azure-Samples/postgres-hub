@@ -128,7 +128,7 @@ const CommunitySupportSection = () => {
                 <div
                   className={styles.cardActions}
                   style={
-                    card.title === "Contact Us"
+                    card.title === "Contact Us" || card.title === "Join the Community" || card.title === "Stay Tuned"
                       ? { flexDirection: "column", width: "100%", gap: 12 }
                       : {}
                   }
@@ -141,7 +141,7 @@ const CommunitySupportSection = () => {
                         : null;
                     const isOutlined = action.variant === "outlined";
                     const fullWidth =
-                      action.fullWidth || card.title === "Contact Us";
+                      action.fullWidth || card.title === "Contact Us" || card.title === "Join the Community" || card.title === "Stay Tuned";
 
                     // support static image/icon paths (e.g. 'img/brand-linkedin.svg' or '/img/...')
                     const isImageIcon =
@@ -153,7 +153,7 @@ const CommunitySupportSection = () => {
                       ? useBaseUrl(action.icon)
                       : null;
 
-                    return (
+                    return action.href ? (
                       <a
                         key={i}
                         href={action.href}
@@ -167,7 +167,7 @@ const CommunitySupportSection = () => {
                             ? {
                                 width: "100%",
                                 justifyContent:
-                                  card.title === "Contact Us"
+                                  card.title === "Contact Us" || card.title === "Join the Community" || card.title === "Stay Tuned"
                                     ? "flex-start"
                                     : "center",
                               }
@@ -183,7 +183,7 @@ const CommunitySupportSection = () => {
                         }
                       >
                         {isTwitterX ? (
-                          <TwitterXIcon size={20} />
+                          <TwitterXIcon size={24} />
                         ) : ActionIcon ? (
                           <ActionIcon size={24} />
                         ) : isImageIcon && imageSrc ? (
@@ -195,6 +195,33 @@ const CommunitySupportSection = () => {
                         ) : null}
                         {action.label}
                       </a>
+                    ) : (
+                      <span
+                        key={i}
+                        className={
+                          isOutlined
+                            ? styles.cardActionBtnOutlined
+                            : styles.cardActionBtn
+                        }
+                        style={{
+                          opacity: 0.6,
+                          cursor: "default",
+                          ...(fullWidth ? { width: "100%", justifyContent: "flex-start" } : {}),
+                        }}
+                      >
+                        {isTwitterX ? (
+                          <TwitterXIcon size={24} />
+                        ) : ActionIcon ? (
+                          <ActionIcon size={24} />
+                        ) : isImageIcon && imageSrc ? (
+                          <img
+                            src={imageSrc}
+                            alt={action.label}
+                            className={styles.actionImg}
+                          />
+                        ) : null}
+                        {action.label}
+                      </span>
                     );
                   })}
                 </div>

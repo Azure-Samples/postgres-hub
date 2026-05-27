@@ -10,6 +10,7 @@ const PARENT_SPECIFIC_SUB_TAGS: Partial<
   },
   genai: {
     overview: "genai-overview",
+    "ai-functions": "azure-ai-extension",
   },
 };
 

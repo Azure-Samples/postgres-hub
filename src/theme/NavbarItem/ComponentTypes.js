@@ -12,7 +12,6 @@ import React, { useState } from "react";
 import NewsletterDialog from "./NewsletterDialog";
 const submitFeedbackButton = () => {
   const [open, setOpen] = useState(false);
-  const handleClick = shareFeedbackHandler();
   return (
     <>
       <Button
@@ -21,9 +20,9 @@ const submitFeedbackButton = () => {
         iconPosition="before"
         shape="rounded"
         className={style.button}
-        onClick={handleClick}
+        onClick={() => window.open("https://github.com/Azure-Samples/postgres-hub/discussions", "_blank")}
       >
-        Share Feedback
+        Developer Forum
       </Button>
       <NewsletterDialog open={open} setOpen={setOpen} />
     </>

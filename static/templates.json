@@ -1,7 +1,7 @@
 [
   {
     "title": "Build AI Apps with Azure Database for PostgreSQL",
-    "description": "This learning path teaches you how to build Generative AI applications and agents with Azure Database for PostgreSQL, including vector search with pgvector, invoking LLMs using the azure_ai extension and semantic operators, and creating end-to-end RAG solutions. It also covers building intelligent AI agents that integrate seamlessly with your PostgreSQL data.",
+    "description": "This learning path teaches you how to build Generative AI applications and agents with Azure Database for PostgreSQL, including vector search with pgvector, invoking LLMs using the azure_ai extension and AI functions, and creating end-to-end RAG solutions. It also covers building intelligent AI agents that integrate seamlessly with your PostgreSQL data.",
     "website": "https://learn.microsoft.com/training/paths/build-ai-apps-azure-database-postgresql/",
     "source": "https://learn.microsoft.com/training/paths/build-ai-apps-azure-database-postgresql/",
     "image": "./img/build-ai-apps-with-az-for-pg.png",
@@ -670,10 +670,10 @@
     "priority": "P1"
   },
   {
-    "title": "Use Semantic Operators in the Azure AI Extension",
-    "description": "Semantic Operators in Azure Database for PostgreSQL azure_ai extension introduce a native intelligence layer to relational algebra by integrating large language models directly into the SQL query engine. This feature enables in-database reasoning over operational data, allowing developers to extract and act on hidden semantic relationships for GenAI applications and agents. This article explains the 4 semantic operators: generate(), is_true(), extract() and rank() and walks you through how to get started with using them.",
-    "website": "https://learn.microsoft.com/azure/postgresql/flexible-server/generative-ai-azure-ai-semantic-operators",
-    "source": "https://learn.microsoft.com/azure/postgresql/flexible-server/generative-ai-azure-ai-semantic-operators",
+    "title": "Use AI functions in the azure_ai extension",
+    "description": "AI functions in Azure Database for PostgreSQL azure_ai extension introduce a native intelligence layer to relational algebra by integrating large language models directly into the SQL query engine. This feature enables in-database reasoning over operational data, allowing developers to extract and act on hidden semantic relationships for GenAI applications and agents. This article explains the 4 AI functions: generate(), is_true(), extract() and rank() and walks you through how to get started with using them.",
+    "website": "https://learn.microsoft.com/azure/postgresql/azure-ai/generative-ai-azure-ai-functions",
+    "source": "https://learn.microsoft.com/azure/postgresql/azure-ai/generative-ai-azure-ai-functions",
     "image": "img/use-semantic-operators.png",
     "tags": [
       "documentation",
@@ -689,8 +689,8 @@
     "date": "2025-8-1",
     "priority": "P0",
     "tileNumber": 6,
-    "learningPathTitle": "Improve Search Accuracy with Semantic Operators",
-    "learningPathDescription": "Explore semantic operators to enhance search accuracy in Azure Database for PostgreSQL."
+    "learningPathTitle": "Improve Search Accuracy with AI functions",
+    "learningPathDescription": "Explore AI functions to enhance search accuracy in Azure Database for PostgreSQL."
   },
   {
     "title": "Implement Semantic Ranker to Improve Recall Accuracy",
@@ -1312,38 +1312,12 @@
     }
   },
   {
-    "title": "Bringing Generative AI to Your Data: Semantic Operators in Azure Database for PostgreSQL",
-    "description": "Semantic Operators in Azure Database for PostgreSQL azure_ai extension introduce a native intelligence layer to relational algebra by integrating large language models directly into the SQL query engine. This feature enables in-database reasoning over operational data, allowing developers to extract and act on hidden semantic relationships for GenAI applications and agents. This blog explains the 4 semantic operators: generate(), is_true(), extract() and rank() with live use cases!",
-    "website": "https://techcommunity.microsoft.com/blog/adforpostgresql/bringing-generative-ai-to-your-data-semantic-operators-in-azure-database-for-pos/4414983",
-    "source": "https://techcommunity.microsoft.com/blog/adforpostgresql/bringing-generative-ai-to-your-data-semantic-operators-in-azure-database-for-pos/4414983",
-    "image": "./img/bringing-genai-to-semantic-operators.png",
-    "tags": [
-      "featured",
-      "announcement",
-      "flexibleserver",
-      "genai",
-      "vector-search",
-      "azure-ai-extension",
-      "rag",
-      "semantic-search",
-      "blog"
-    ],
-    "date": "2025-05-19",
-    "priority": "P0",
-    "meta": {
-      "author": "aytekinar",
-      "date": "May 19, 2025",
-      "duration": "14 min read"
-    }
-  },
-  {
     "title": "DiskANN on Azure Database for PostgreSQL – Now Generally Available",
     "description": "DiskANN for Azure Database for PostgreSQL is now generally available, delivering fast, scalable, and cost-efficient vector search for production workloads. This article highlights new GA features, performance optimizations like product quantization, and benchmark results showing up to 10x faster speed and 96x lower memory usage compared to pgvector HNSW.",
     "website": "https://techcommunity.microsoft.com/blog/adforpostgresql/diskann-on-azure-database-for-postgresql-%E2%80%93-now-generally-available/4414723",
     "source": "https://techcommunity.microsoft.com/blog/adforpostgresql/diskann-on-azure-database-for-postgresql-%E2%80%93-now-generally-available/4414723",
     "image": "./img/diskann-on-azure-db.png",
     "tags": [
-      "featured",
       "announcement",
       "flexibleserver",
       "genai",
@@ -1539,7 +1513,6 @@
     "image": "./img/enterprise-ready-ai-agents.png",
     "tags": [
       "flexibleserver",
-      "featured",
       "genai",
       "vector-search",
       "rag",
