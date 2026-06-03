@@ -18,8 +18,8 @@ import OptimizedImage from "../../OptimizedImage";
 
 const LEARNING_PATH_TAGS = [
   "developing-core-applications",
-  "building-genai-apps",
-  "building-ai-agents",
+  "building-ai-apps-flex",
+  "building-ai-apps-horizondb",
 ];
 
 type GitHubRepoInfo = {

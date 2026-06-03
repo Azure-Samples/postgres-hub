@@ -49,8 +49,8 @@ function LearningPathTagSelect({
   // Learning path tags that should be mutually exclusive
   const learningPathTags = [
     "developing-core-applications",
-    "building-genai-apps",
-    "building-ai-agents",
+    "building-ai-apps-flex",
+    "building-ai-apps-horizondb",
   ];
 
   const toggleTag = () => {
@@ -69,7 +69,7 @@ function LearningPathTagSelect({
     } else {
       // Define compatible resource types for each learning path
       const learningPathCompatibility = {
-        "building-genai-apps": [
+        "building-ai-apps-flex": [
           "documentation",
           "tutorial",
           "concepts",
@@ -88,7 +88,7 @@ function LearningPathTagSelect({
           "workshop",
           "training",
         ],
-        "building-ai-agents": [
+        "building-ai-apps-horizondb": [
           "documentation",
           "tutorial",
           "concepts",

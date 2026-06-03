@@ -94,8 +94,8 @@ export type TagType =
   | "php"
   | "analytics"
   | "developing-core-applications"
-  | "building-genai-apps"
-  | "building-ai-agents";
+  | "building-ai-apps-flex"
+  | "building-ai-apps-horizondb";
 
 // LIST OF AVAILABLE TAGS
 // Each tag in lit about must have a defined object here
@@ -406,15 +406,15 @@ export const Tags: { [type in TagType]: Tag } = {
     type: "LearningPath",
     color: "orange",
   },
-  "building-genai-apps": {
-    label: "Building Generative AI Apps",
-    description: "Learning path for building GenAI applications",
+  "building-ai-apps-flex": {
+    label: "Building AI Apps and Agents with Azure Database for PostgreSQL",
+    description: "Learning path for building AI apps and agents with Flexible Server",
     type: "LearningPath",
     color: "green",
   },
-  "building-ai-agents": {
-    label: "Building AI Agents",
-    description: "Learning path for building AI agents",
+  "building-ai-apps-horizondb": {
+    label: "Building AI Apps and Agents with Azure HorizonDB",
+    description: "Learning path for building AI apps and agents with HorizonDB",
     type: "LearningPath",
     color: "teal",
   },

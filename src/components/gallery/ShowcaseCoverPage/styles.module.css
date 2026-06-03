@@ -269,6 +269,10 @@
     font-size: 22px !important;
   }
 
+  .greyTextLarge {
+    font-size: 22px !important;
+  }
+
   .centeredDescription {
     font-size: 18px !important;
   }
@@ -300,6 +304,10 @@
 
   .greyText {
     font-size: 20px !important;
+  }
+
+  .greyTextLarge {
+    font-size: 18px !important;
   }
 
   .centeredDescription {

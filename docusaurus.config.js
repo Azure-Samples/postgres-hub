@@ -30,13 +30,6 @@ const config = {
         href: "https://aka.ms/AzureHorizonDB",
       },
       {
-        icon: "FileText",
-        color: "#6f2c91",
-        label: "Documentation",
-        description: "Concepts, tutorials, guides and API references",
-        href: "https://aka.ms/postgresqldocs",
-      },
-      {
         icon: "NotepadText",
         color: "#04a841",
         label: "Blog",
@@ -59,6 +52,7 @@ const config = {
       },
       {
         icon: "Gift",
+
         color: "#9a14fa",
         label: "Try PostgreSQL for free",
         description: "Free access for 12 months with an Azure free account.",
@@ -81,24 +75,24 @@ const config = {
         {
           icon: "Bot",
           iconColor: "#157f15",
-          title: "Building Generative AI Apps",
+          title: "Building AI Apps and Agents with Azure Database for PostgreSQL",
           description:
-            "Build intelligent apps with PostgreSQL using vector search, in-SQL AI functions, and popular AI frameworks.",
-          level: "Intermediate",
-          duration: "3-4 hours",
-          tags: ["Vector Extension", "Foundry Integration", "AI Functions", "RAG"],
-          filterTag: "building-genai-apps",
-        },
-        {
-          icon: "Layers",
-          iconColor: "#5c2d91",
-          title: "Building AI Agents",
-          description:
-            "Create sophisticated AI agents that leverage PostgreSQL for knowledge retrieval, memory and data persistence.",
+            "Create intelligent solutions using vector search, in-SQL AI functions, and popular agentic frameworks.",
           level: "Intermediate",
           duration: "2-3 hours",
-          tags: ["Agent Architecture", "MCP", "Foundry Integration", "Multi-agent Coordination"],
-          filterTag: "building-ai-agents",
+          tags: ["Vector Search", "Foundry Integration", "AI Functions", "RAG"],
+          filterTag: "building-ai-apps-flex",
+        },
+        {
+          icon: "Bot",
+          iconColor: "#5c2d91",
+          title: "Building AI Apps and Agents with Azure HorizonDB",
+          description:
+            "Learn how to leverage Azure HorizonDB's native AI capabilities, purpose-built for the AI era.",
+          level: "Intermediate",
+          duration: "3-4 hours",
+          tags: ["AI Pipelines", "Model Management", "AI Functions", "Hybrid Search", "DiskANN"],
+          filterTag: "building-ai-apps-horizondb",
         },
       ],
     },

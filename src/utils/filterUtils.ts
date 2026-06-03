@@ -349,7 +349,7 @@ const LEARNING_PATH_COMPATIBLE_RESOURCES: Record<string, TagType[]> = {
     "training",
     "video",
   ],
-  "building-genai-apps": [
+  "building-ai-apps-flex": [
     "documentation",
     "concepts",
     "how-to",
@@ -358,7 +358,7 @@ const LEARNING_PATH_COMPATIBLE_RESOURCES: Record<string, TagType[]> = {
     "training",
     "video",
   ],
-  "building-ai-agents": [
+  "building-ai-apps-horizondb": [
     "documentation",
     "concepts",
     "how-to",
@@ -374,8 +374,8 @@ const LEARNING_PATH_COMPATIBLE_RESOURCES: Record<string, TagType[]> = {
  */
 const LEARNING_PATH_TAGS = [
   "developing-core-applications",
-  "building-genai-apps",
-  "building-ai-agents",
+  "building-ai-apps-flex",
+  "building-ai-apps-horizondb",
 ] as const;
 
 /**
