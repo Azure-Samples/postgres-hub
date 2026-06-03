@@ -13,8 +13,8 @@ import { useLocation } from "@docusaurus/router";
 
 const LEARNING_PATH_TAGS = [
   "developing-core-applications",
-  "building-genai-apps",
-  "building-ai-agents",
+  "building-ai-apps-flex",
+  "building-ai-apps-horizondb",
 ];
 
 export default function ShowcaseCards({

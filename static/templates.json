@@ -1,6 +1,435 @@
 [
   {
-    "title": "Build AI Apps with Azure Database for PostgreSQL",
+    "title": "Azure HorizonDB: Enterprise-Ready Postgres, Engineered for the AI Era",
+    "description": "At Microsoft Build, we announced the public preview of Azure HorizonDB, a new enterprise-ready Postgres-compatible database service designed to meet the needs of modern AI applications, alongside a set of enhancements to our PostgreSQL tooling in Visual Studio Code to further streamline the developer experience.",
+    "website": "https://techcommunity.microsoft.com/blog/adforpostgresql/azure-horizondb-enterprise-ready-postgres-engineered-for-the-ai-era/4524094",
+    "source": "https://techcommunity.microsoft.com/blog/adforpostgresql/azure-horizondb-enterprise-ready-postgres-engineered-for-the-ai-era/4524094",
+    "image": "./img/horizondb-announcement.PNG",
+    "tags": [
+      "featured",
+      "horizondb",
+      "fundamentals",
+      "genai",
+      "blog"
+    ],
+    "date": "2026-06-02",
+    "priority": "P0"
+  },
+  {
+    "title": "Agentic Advisor: AI-Powered Financial Advisory with Multi-Agent Workflows",
+    "description": "A GenAI-powered financial advisory solution accelerator showcasing multi-agent workflows with LangChain, Apache AGE graph traversal for indirect risk detection, RAG over SEC 10-K filings and news, persistent client memory with Mem0, and in-database AI using the azure_ai extension. Deployable on Azure in minutes with Azure Developer CLI.",
+    "website": "https://github.com/Azure-Samples/postgres-agentic-advisor",
+    "source": "https://github.com/Azure-Samples/postgres-agentic-advisor",
+    "image": "./img/horizondb-agentic-advisor.PNG",
+    "tags": [
+      "featured",
+      "solution-accelerator",
+      "horizondb",
+      "learning-path",
+      "building-ai-apps-horizondb",
+      "genai",
+      "agents",
+      "rag",
+      "graph",
+      "azure-ai-extension",
+      "vector-search",
+      "python"
+    ],
+    "date": "2026-06-02",
+    "priority": "P0",
+    "learningPathTitle": "Solution Accelerator: A Financial Agentic Advisor with Multi-Agent Workflows",
+    "learningPathDescription": "A GenAI-powered financial advisory solution accelerator showcasing multi-agent workflows with LangChain, Apache AGE graph traversal for indirect risk detection, RAG over SEC 10-K filings and news, persistent client memory with Mem0, and in-database AI using the azure_ai extension. Deployable on Azure in minutes with Azure Developer CLI."
+  },
+  {
+    "title": "Overview of AI Capabilities in Azure HorizonDB",
+    "description": "Explore the full AI stack built into Azure HorizonDB — from vector search and embeddings to AI functions, pipelines, semantic reranking, knowledge graphs, and agent integrations. Learn how PostgreSQL becomes your unified platform for both operational data and AI workloads.",
+    "website": "https://learn.microsoft.com/en-us/azure/horizondb/ai/ai-overview",
+    "source": "https://learn.microsoft.com/en-us/azure/horizondb/ai/ai-overview",
+    "image": "./img/horizondb-genai-overview.PNG",
+    "tags": [
+      "featured",
+      "documentation",
+      "learning-path",
+      "building-ai-apps-horizondb",
+      "horizondb",
+      "genai",
+      "overview",
+      "genai-overview",
+      "concepts"
+    ],
+    "date": "2026-06-02",
+    "priority": "P0",
+    "tileNumber": 1,
+    "learningPathTitle": "Overview of AI Capabilities in Azure HorizonDB",
+    "learningPathDescription": "Explore the comprehensive AI capabilities built into Azure HorizonDB, including vector search, hybrid search, AI functions, pipelines, semantic reranking, knowledge graphs, and agent integrations."
+  },
+  {
+    "title": "AI functions in the azure_ai extension for Azure HorizonDB",
+    "description": "Use generative AI directly in SQL with the azure_ai extension — generate embeddings, rerank results, extract entities and relationships, reason over text, and produce structured outputs using models from Microsoft Foundry. Build GenAI-driven applications without leaving the database.",
+    "website": "https://learn.microsoft.com/en-us/azure/horizondb/ai/ai-functions",
+    "source": "https://learn.microsoft.com/en-us/azure/horizondb/ai/ai-functions",
+        "image": "./img/horizondb-ai-functions.PNG",
+    "tags": [
+      "documentation",
+      "horizondb",
+      "learning-path",
+      "building-ai-apps-horizondb",
+      "genai",
+      "azure-ai-extension",
+      "concepts"
+    ],
+    "date": "2026-06-02",
+    "priority": "P0",
+    "tileNumber": 2,
+    "learningPathTitle": "Use AI Functions and AI Model Management",
+    "learningPathDescription": "Use generative AI directly in SQL with built-in Microsoft Foundry models and the azure_ai extension to generate embeddings, rerank results, extract entities and relationships, reason over text, and produce structured outputs."
+  },
+  {
+    "title": "AI Model Management in Azure HorizonDB",
+    "description": "Automatically provision, configure, and manage embedding, generation, and reranking models directly within your database with a single toggle. Eliminates the need to navigate multiple Azure services for model deployment and credential management.",
+    "website": "https://learn.microsoft.com/en-us/azure/horizondb/ai/ai-model-management",
+    "source": "https://learn.microsoft.com/en-us/azure/horizondb/ai/ai-model-management",
+    "image": "./img/horizondb-ai-model-management.PNG",
+    "tags": [
+      "documentation",
+      "horizondb",
+      "genai",
+      "azure-ai-extension",
+      "how-to"
+    ],
+    "date": "2026-06-02",
+    "priority": "P0"
+  },
+  {
+    "title": "Data Preparation for AI",
+    "description": "Learn the key data preparation steps — cleaning, chunking, embedding, enrichment, and indexing — required before building RAG applications and intelligent agents with Azure HorizonDB.",
+    "website": "https://learn.microsoft.com/en-us/azure/horizondb/ai/ai-data-preparation",
+    "source": "https://learn.microsoft.com/en-us/azure/horizondb/ai/ai-data-preparation",
+    "image": "./img/horizondb-data-preparation.PNG",
+    "tags": [
+      "documentation",
+      "horizondb",
+      "genai",
+      "rag",
+      "concepts"
+    ],
+    "date": "2026-06-02",
+    "priority": "P0"
+  },
+  {
+    "title": "AI Pipelines in Azure HorizonDB",
+    "description": "Define and run durable AI workflows (chunking, embedding, extraction, generation, reranking) declaratively in SQL. Pipelines run inside the database with built-in state tracking, retries, and crash recovery.",
+    "website": "https://learn.microsoft.com/en-us/azure/horizondb/ai/ai-pipelines",
+    "source": "https://learn.microsoft.com/en-us/azure/horizondb/ai/ai-pipelines",
+    "image": "./img/horizondb-ai-pipelines.PNG",
+    "tags": [
+      "documentation",
+      "horizondb",
+      "learning-path",
+      "building-ai-apps-horizondb",
+      "genai",
+      "azure-ai-extension",
+      "concepts"
+    ],
+    "date": "2026-06-02",
+    "priority": "P0",
+    "tileNumber": 3,
+    "learningPathTitle": "Implement AI Pipelines in SQL",
+    "learningPathDescription": "Learn how to define and run durable AI workflows (chunking, embedding, extraction, generation, reranking) declaratively in SQL with Azure HorizonDB's built-in pipeline capabilities."
+  },
+  {
+    "title": "Generate Vector Embeddings in SQL",
+    "description": "Generate vector embeddings directly in SQL using the create_embeddings() function in the azure_ai extension. Use AI Model Management for a turnkey experience, or register your own embedding model.",
+    "website": "https://learn.microsoft.com/en-us/azure/horizondb/ai/generate-vector-embeddings",
+    "source": "https://learn.microsoft.com/en-us/azure/horizondb/ai/generate-vector-embeddings",
+    "image": "./img/horizondb-generate-embeddings.PNG",
+    "tags": [
+      "documentation",
+      "horizondb",
+      "genai",
+      "vector-search",
+      "azure-ai-extension",
+      "how-to"
+    ],
+    "date": "2026-06-02",
+    "priority": "P0"
+  },
+  {
+    "title": "Retrieval Foundations: Vector, Full-Text, and Hybrid Search",
+    "description": "Understand the core retrieval techniques available in Azure HorizonDB — vector, full-text, and hybrid search — and learn when to use each one and how they compose into a complete search strategy.",
+    "website": "https://learn.microsoft.com/en-us/azure/horizondb/ai/ai-search-overview",
+    "source": "https://learn.microsoft.com/en-us/azure/horizondb/ai/ai-search-overview",
+    "image": "./img/horizondb-retrieval-foundations.PNG",
+    "tags": [
+      "documentation",
+      "horizondb",
+      "learning-path",
+      "building-ai-apps-horizondb",
+      "genai",
+      "vector-search",
+      "semantic-search",
+      "concepts"
+    ],
+    "date": "2026-06-02",
+    "priority": "P0",
+    "tileNumber": 4,
+    "learningPathTitle": "Implement Vector, Full-Text, and Hybrid Search",
+    "learningPathDescription": "Learn how to use the core retrieval techniques available in Azure HorizonDB (vector, full-text, and hybrid search)."
+  },
+  {
+    "title": "Vector Search with pgvector",
+    "description": "Implement semantic similarity search using the pgvector extension. Store, index, and query vector embeddings with support for cosine, L2, and inner product distance operators.",
+    "website": "https://learn.microsoft.com/en-us/azure/horizondb/ai/vector-search-pgvector",
+    "source": "https://learn.microsoft.com/en-us/azure/horizondb/ai/vector-search-pgvector",
+    "image": "./img/horizondb-vector-search.PNG",
+    "tags": [
+      "documentation",
+      "horizondb",
+      "genai",
+      "vector-search",
+      "how-to"
+    ],
+    "date": "2026-06-02",
+    "priority": "P0"
+  },
+  {
+    "title": "Full-Text Search with pg_fts",
+    "description": "Add BM25-ranked full-text search to your database with the pg_fts extension. Supports fuzzy matching, phrase proximity, and CJK language support — no separate search service required.",
+    "website": "https://learn.microsoft.com/en-us/azure/horizondb/ai/full-text-search",
+    "source": "https://learn.microsoft.com/en-us/azure/horizondb/ai/full-text-search",
+    "image": "./img/horizondb-full-text-search.PNG",
+    "tags": [
+      "documentation",
+      "horizondb",
+      "genai",
+      "semantic-search",
+      "how-to"
+    ],
+    "date": "2026-06-02",
+    "priority": "P0"
+  },
+  {
+    "title": "Hybrid Search in Azure HorizonDB",
+    "description": "Combine BM25 full-text search with pgvector and DiskANN vector search in a single query. Fuse keyword precision with semantic recall using Reciprocal Rank Fusion.",
+    "website": "https://learn.microsoft.com/en-us/azure/horizondb/ai/hybrid-search",
+    "source": "https://learn.microsoft.com/en-us/azure/horizondb/ai/hybrid-search",
+    "image": "./img/horizondb-hybrid-search.PNG",
+    "tags": [
+      "documentation",
+      "horizondb",
+      "genai",
+      "vector-search",
+      "semantic-search",
+      "concepts"
+    ],
+    "date": "2026-06-02",
+    "priority": "P0"
+  },
+  {
+    "title": "Tutorial: Build a Semantic Search Application",
+    "description": "Build an end-to-end semantic search application using vector search, DiskANN indexing, and semantic reranking. A hands-on tutorial that walks through the full pipeline from embeddings to ranked results.",
+    "website": "https://learn.microsoft.com/en-us/azure/horizondb/ai/build-semantic-search-app",
+    "source": "https://learn.microsoft.com/en-us/azure/horizondb/ai/build-semantic-search-app",
+    "image": "./img/horizondb-tutorial-semantic-search.PNG",
+    "tags": [
+      "documentation",
+      "horizondb",
+      "genai",
+      "vector-search",
+      "semantic-search",
+      "tutorial"
+    ],
+    "date": "2026-06-02",
+    "priority": "P0"
+  },
+  {
+    "title": "Optimize pgvector Performance",
+    "description": "Best practices for improving vector search performance — covering partitioning strategies, index tuning, and search parameter configuration for pgvector workloads.",
+    "website": "https://learn.microsoft.com/en-us/azure/horizondb/ai/optimize-pgvector-performance",
+    "source": "https://learn.microsoft.com/en-us/azure/horizondb/ai/optimize-pgvector-performance",
+    "image": "./img/horizondb-pgvector-performance.PNG",
+    "tags": [
+      "documentation",
+      "horizondb",
+      "genai",
+      "vector-search",
+      "best-practices",
+      "how-to"
+    ],
+    "date": "2026-06-02",
+    "priority": "P0"
+  },
+  {
+    "title": "Scalable Vector Indexing with DiskANN",
+    "description": "Use the pg_diskann extension for high-performance approximate nearest neighbor search at any scale. The recommended default vector index for production AI workloads on Azure HorizonDB.",
+    "website": "https://learn.microsoft.com/en-us/azure/horizondb/ai/vector-index-diskann",
+    "source": "https://learn.microsoft.com/en-us/azure/horizondb/ai/vector-index-diskann",
+    "image": "./img/horizondb-diskann.PNG",
+    "tags": [
+      "documentation",
+      "horizondb",
+      "learning-path",
+      "building-ai-apps-horizondb",
+      "genai",
+      "vector-search",
+      "how-to"
+    ],
+    "date": "2026-06-02",
+    "priority": "P0",
+    "tileNumber": 5,
+    "learningPathTitle": "Improve Search Performance with DiskANN Vector Indexing",
+    "learningPathDescription": "Learn how to use the pg_diskann extension for high-performance approximate nearest neighbor search at any scale, making it the recommended default vector index for production AI workloads on Azure HorizonDB."
+  },
+  {
+    "title": "Vector Index Selection Guide",
+    "description": "Compare flat scan, IVFFlat, HNSW, and DiskANN vector indexes. Choose the right one based on dataset size, recall target, update rate, and filter selectivity.",
+    "website": "https://learn.microsoft.com/en-us/azure/horizondb/ai/vector-index-selection-guide",
+    "source": "https://learn.microsoft.com/en-us/azure/horizondb/ai/vector-index-selection-guide",
+    "image": "./img/horizondb-index-selection.PNG",
+    "tags": [
+      "documentation",
+      "horizondb",
+      "genai",
+      "vector-search",
+      "concepts"
+    ],
+    "date": "2026-06-02",
+    "priority": "P0"
+  },
+  {
+    "title": "Semantic Reranking with the Rank Function",
+    "description": "Improve search relevance by adding a cross-encoder reranking stage with azure_ai.rank(). Reorder results from vector, full-text, or hybrid search to surface the most relevant matches first.",
+    "website": "https://learn.microsoft.com/en-us/azure/horizondb/ai/semantic-rank-function",
+    "source": "https://learn.microsoft.com/en-us/azure/horizondb/ai/semantic-rank-function",
+    "image": "./img/horizondb-reranking.PNG",
+    "tags": [
+      "documentation",
+      "horizondb",
+      "learning-path",
+      "building-ai-apps-horizondb",
+      "genai",
+      "semantic-search",
+      "azure-ai-extension",
+      "concepts"
+    ],
+    "date": "2026-06-02",
+    "priority": "P0",
+    "tileNumber": 6,
+    "learningPathTitle": "Enhance Search Relevance with Semantic Reranking",
+    "learningPathDescription": "Learn how to improve search relevance by adding a cross-encoder reranking stage with azure_ai.rank() to reorder results from vector, full-text, or hybrid search."
+  },
+  {
+    "title": "GraphRAG for Knowledge Graph Enhanced Search",
+    "description": "Combine knowledge graphs, vector search, and LLM reasoning to build more accurate RAG applications. Improve retrieval for complex queries that depend on entity relationships, citations, or multi-hop reasoning.",
+    "website": "https://learn.microsoft.com/en-us/azure/horizondb/ai/graph-rag",
+    "source": "https://learn.microsoft.com/en-us/azure/horizondb/ai/graph-rag",
+    "image": "./img/horizondb-graphrag.PNG",
+    "tags": [
+      "documentation",
+      "horizondb",
+      "learning-path",
+      "building-ai-apps-horizondb",
+      "genai",
+      "graph",
+      "rag",
+      "concepts"
+    ],
+    "date": "2026-06-02",
+    "priority": "P0",
+    "tileNumber": 7
+  },
+  {
+    "title": "Tutorial: Build a Knowledge Graph from Unstructured Text",
+    "description": "Extract entities and relationships from unstructured text using AI functions and Apache AGE. Convert raw documents into a queryable knowledge graph for search, exploration, and graph-RAG.",
+    "website": "https://learn.microsoft.com/en-us/azure/horizondb/ai/build-knowledge-graph",
+    "source": "https://learn.microsoft.com/en-us/azure/horizondb/ai/build-knowledge-graph",
+    "image": "./img/horizondb-knowledge-graph-tutorial.PNG",
+    "tags": [
+      "documentation",
+      "horizondb",
+      "genai",
+      "graph",
+      "azure-ai-extension",
+      "tutorial"
+    ],
+    "date": "2026-06-02",
+    "priority": "P0"
+  },
+  {
+    "title": "Build AI Agents with Azure HorizonDB",
+    "description": "Learn what AI agents are, why PostgreSQL is essential for agent memory and knowledge retrieval, and how Azure HorizonDB provides the unified data layer for building intelligent autonomous agents.",
+    "website": "https://learn.microsoft.com/en-us/azure/horizondb/ai/ai-agents",
+    "source": "https://learn.microsoft.com/en-us/azure/horizondb/ai/ai-agents",
+    "image": "./img/horizondb-agents.PNG",
+    "tags": [
+      "documentation",
+      "horizondb",
+      "learning-path",
+      "building-ai-apps-horizondb",
+      "genai",
+      "agents",
+      "concepts"
+    ],
+    "date": "2026-06-02",
+    "priority": "P0",
+    "tileNumber": 8
+  },
+  {
+    "title": "Integrate with LLM Orchestration Frameworks",
+    "description": "Connect Azure HorizonDB with Microsoft Agent Framework, Semantic Kernel, LangChain, LlamaIndex, and CrewAI to build AI apps and multi-agent systems with built-in database connectivity.",
+    "website": "https://learn.microsoft.com/en-us/azure/horizondb/ai/ai-frameworks",
+    "source": "https://learn.microsoft.com/en-us/azure/horizondb/ai/ai-frameworks",
+    "image": "./img/horizondb-llm-frameworks.PNG",
+    "tags": [
+      "documentation",
+      "horizondb",
+      "genai",
+      "agents",
+      "concepts"
+    ],
+    "date": "2026-06-02",
+    "priority": "P0"
+  },
+  {
+    "title": "Develop AI Apps with LangChain and Azure HorizonDB",
+    "description": "Integrate Azure HorizonDB as a vector store in LangChain for document storage, indexing, and similarity search (cosine, L2, inner product) with DiskANN-powered performance at scale.",
+    "website": "https://learn.microsoft.com/en-us/azure/horizondb/ai/develop-with-langchain",
+    "source": "https://learn.microsoft.com/en-us/azure/horizondb/ai/develop-with-langchain",
+    "image": "./img/horizondb-langchain.PNG",
+    "tags": [
+      "documentation",
+      "horizondb",
+      "genai",
+      "agents",
+      "vector-search",
+      "python",
+      "concepts"
+    ],
+    "date": "2026-06-02",
+    "priority": "P0"
+  },
+  {
+    "title": "AI and Agentic Use Cases and Sample Applications",
+    "description": "Explore ready-to-deploy solution accelerators and sample applications spanning semantic search, RAG copilots, multi-agent systems, and intelligent analytics across industries.",
+    "website": "https://learn.microsoft.com/en-us/azure/horizondb/ai/ai-samples",
+    "source": "https://learn.microsoft.com/en-us/azure/horizondb/ai/ai-samples",
+    "image": "./img/horizondb-samples.PNG",
+    "tags": [
+      "documentation",
+      "horizondb",
+      "genai",
+      "learning-path",
+      "building-ai-apps-horizondb",
+      "agents",
+      "rag",
+      "vector-search",
+      "solution-accelerator"
+    ],
+    "date": "2026-06-02",
+    "priority": "P0"
+  },
+  {
+    "title": "Training Path: Build AI Apps with Azure Database for PostgreSQL",
     "description": "This learning path teaches you how to build Generative AI applications and agents with Azure Database for PostgreSQL, including vector search with pgvector, invoking LLMs using the azure_ai extension and AI functions, and creating end-to-end RAG solutions. It also covers building intelligent AI agents that integrate seamlessly with your PostgreSQL data.",
     "website": "https://learn.microsoft.com/training/paths/build-ai-apps-azure-database-postgresql/",
     "source": "https://learn.microsoft.com/training/paths/build-ai-apps-azure-database-postgresql/",
@@ -10,14 +439,14 @@
       "agents",
       "flexibleserver",
       "learning-path",
-      "building-genai-apps",
-      "building-ai-agents",
+      "building-ai-apps-flex",
       "genai",
       "training",
       "vector-search",
       "azure-ai-extension",
       "semantic-search",
       "rag",
+      "featured",
       "graph"
     ],
     "priority": "P0",
@@ -71,7 +500,7 @@
       "genai",
       "overview",
       "learning-path",
-      "building-genai-apps",
+      "building-ai-apps-flex",
       "concepts",
       "flexibleserver"
     ],
@@ -197,7 +626,7 @@
     "priority": "P2"
   },
   {
-    "title": "Quickstart: Connect and Query with PostgreSQL Extension for Visual Studio Code (preview)",
+    "title": "Quickstart: Connect and Query with PostgreSQL Extension for Visual Studio Code",
     "description": "The PostgreSQL extension for Visual Studio Code is a powerful tool designed to streamline the development and management of PostgreSQL databases. This quickstart guide walks you through connecting to a PostgreSQL database and executing queries within the Visual Studio Code environment.",
     "website": "https://learn.microsoft.com/azure/postgresql/extensions/vs-code-extension/quickstart-connect",
     "source": "https://learn.microsoft.com/azure/postgresql/extensions/vs-code-extension/quickstart-connect",
@@ -215,7 +644,7 @@
     "date": "2025-05-19",
     "priority": "P0",
     "tileNumber": 3,
-    "learningPathTitle": "Develop using the PostgreSQL Extension for VS Code",
+    "learningPathTitle": "Develop Using the PostgreSQL Extension for VS Code",
     "learningPathDescription": "The PostgreSQL extension for Visual Studio Code is a powerful tool designed to streamline the development and management of PostgreSQL databases. Learn how to connect to a PostgreSQL database, execute queries and build full-stack applications within the Visual Studio Code environment."
   },
   {
@@ -371,7 +800,7 @@
     "date": "2025-10-3",
     "priority": "P1",
     "tileNumber": 6,
-    "learningPathTitle": "Deploy Database Updates along with App Updates using GitHub Actions",
+    "learningPathTitle": "Deploy Database Updates Along with App Updates Using GitHub Actions",
     "learningPathDescription": "GitHub Actions is a CI/CD platform that automates workflows directly from your GitHub repository, enabling tasks like building, testing, and deploying code. This quickstart guide walks you through how to create a GitHub Actions workflow to deploy database updates to Azure Database for PostgreSQL, along with your application updates."
   },
   {
@@ -380,7 +809,13 @@
     "website": "https://learn.microsoft.com/azure/postgresql/flexible-server/azure-pipelines-deploy-database-task",
     "source": "https://learn.microsoft.com/azure/postgresql/flexible-server/azure-pipelines-deploy-database-task",
     "image": "./img/deploy-using-az-pipeline.png",
-    "tags": ["documentation", "app-dev", "devops", "how-to", "flexibleserver"],
+    "tags": [
+      "documentation",
+      "app-dev",
+      "devops",
+      "how-to",
+      "flexibleserver"
+    ],
     "date": "2024-10-1",
     "priority": "P1"
   },
@@ -438,7 +873,13 @@
     "website": "https://learn.microsoft.com/azure/app-service/tutorial-java-tomcat-connect-managed-identity-postgresql-database",
     "source": "https://learn.microsoft.com/azure/app-service/tutorial-java-tomcat-connect-managed-identity-postgresql-database",
     "image": "./img/deploy-tomcat-app.png",
-    "tags": ["documentation", "java", "app-dev", "flexibleserver", "tutorial"],
+    "tags": [
+      "documentation",
+      "java",
+      "app-dev",
+      "flexibleserver",
+      "tutorial"
+    ],
     "date": "2024-06-05",
     "priority": "P1"
   },
@@ -469,7 +910,13 @@
     "website": "https://learn.microsoft.com/azure/container-apps/tutorial-java-quarkus-connect-managed-identity-postgresql-database",
     "source": "https://learn.microsoft.com/azure/container-apps/tutorial-java-quarkus-connect-managed-identity-postgresql-database",
     "image": "./img/deploy-java-quarkus-container.png",
-    "tags": ["documentation", "java", "app-dev", "flexibleserver", "tutorial"],
+    "tags": [
+      "documentation",
+      "java",
+      "app-dev",
+      "flexibleserver",
+      "tutorial"
+    ],
     "date": "2025-02-03",
     "priority": "P1"
   },
@@ -563,7 +1010,7 @@
       "documentation",
       "vector-search",
       "learning-path",
-      "building-genai-apps",
+      "building-ai-apps-flex",
       "flexibleserver",
       "how-to",
       "genai",
@@ -600,7 +1047,7 @@
       "documentation",
       "vector-search",
       "learning-path",
-      "building-genai-apps",
+      "building-ai-apps-flex",
       "genai",
       "how-to",
       "flexibleserver",
@@ -608,7 +1055,7 @@
     ],
     "date": "2025-9-4",
     "priority": "P0",
-    "tileNumber": 5,
+    "tileNumber": 3,
     "learningPathTitle": "Enhance Scale with DiskANN Vector Indexing",
     "learningPathDescription": "Learn to use DiskANN for scalable and efficient vector indexing in PostgreSQL."
   },
@@ -620,8 +1067,6 @@
     "image": "./img/integrate-basic-azure-ai.png",
     "tags": [
       "documentation",
-      "learning-path",
-      "building-genai-apps",
       "flexibleserver",
       "genai",
       "how-to",
@@ -630,10 +1075,7 @@
       "azure-ai-extension"
     ],
     "date": "2024-6-27",
-    "priority": "P0",
-    "tileNumber": 3,
-    "learningPathTitle": "Integrate with Azure AI Services",
-    "learningPathDescription": "Learn how to integrate Azure AI services with Azure Database for PostgreSQL."
+    "priority": "P0"
   },
   {
     "title": "Integrate with Azure Machine Learning Services",
@@ -679,7 +1121,7 @@
       "documentation",
       "semantic-search",
       "learning-path",
-      "building-genai-apps",
+      "building-ai-apps-flex",
       "genai",
       "how-to",
       "flexibleserver",
@@ -688,26 +1130,9 @@
     ],
     "date": "2025-8-1",
     "priority": "P0",
-    "tileNumber": 6,
-    "learningPathTitle": "Improve Search Accuracy with AI functions",
+    "tileNumber": 4,
+    "learningPathTitle": "Improve Search Accuracy with AI Functions",
     "learningPathDescription": "Explore AI functions to enhance search accuracy in Azure Database for PostgreSQL."
-  },
-  {
-    "title": "Implement Semantic Ranker to Improve Recall Accuracy",
-    "description": "Accuracy is critical for enterprise Generative AI apps, and the new Semantic Ranking Solution Accelerator for Azure Database for PostgreSQL improves information retrieval by reranking vector search results with semantic models. This article explains why accuracy matters, how semantic ranking enhances RAG pipelines, and provides guidance on using the solution accelerator.",
-    "website": "https://techcommunity.microsoft.com/blog/adforpostgresql/introducing-the-semantic-ranking-solution-for-azure-database-for-postgresql/4298781",
-    "source": "https://techcommunity.microsoft.com/blog/adforpostgresql/introducing-the-semantic-ranking-solution-for-azure-database-for-postgresql/4298781",
-    "image": "./img/semantic-ranker.png",
-    "tags": [
-      "semantic-search",
-      "genai",
-      "flexibleserver",
-      "solution-accelerator",
-      "rag",
-      "vector-search"
-    ],
-    "date": "2025-01-07",
-    "priority": "P0"
   },
   {
     "title": "Build a Semantic Search Application with Azure Database for PostgreSQL and Azure OpenAI",
@@ -807,7 +1232,12 @@
     "website": "https://learn.microsoft.com/training/modules/use-azure-machine-learning-inferencing-azure-database-postgresql/",
     "source": "https://learn.microsoft.com/training/modules/use-azure-machine-learning-inferencing-azure-database-postgresql/",
     "image": "./img/use-az-ml.png",
-    "tags": ["flexibleserver", "genai", "training", "azure-ai-extension"],
+    "tags": [
+      "flexibleserver",
+      "genai",
+      "training",
+      "azure-ai-extension"
+    ],
     "priority": "P1"
   },
   {
@@ -821,7 +1251,7 @@
       "rag",
       "flexibleserver",
       "learning-path",
-      "building-genai-apps",
+      "building-ai-apps-flex",
       "genai",
       "tutorial",
       "vector-search",
@@ -830,8 +1260,8 @@
     ],
     "date": "2025-9-3",
     "priority": "P0",
-    "tileNumber": 4,
-    "learningPathTitle": "Build a RAG Application using Azure Database for PostgreSQL and LangChain",
+    "tileNumber": 6,
+    "learningPathTitle": "Build a RAG Application Using Azure Database for PostgreSQL and LangChain",
     "learningPathDescription": "Tutorial for building Retrieval-Augmented Generation (RAG) applications with LangChain and PostgreSQL."
   },
   {
@@ -844,8 +1274,6 @@
       "documentation",
       "overview",
       "agents",
-      "learning-path",
-      "building-ai-agents",
       "flexibleserver",
       "genai",
       "tutorial",
@@ -855,23 +1283,20 @@
       "azure-ai-extension"
     ],
     "date": "2025-06-27",
-    "priority": "P0",
-    "tileNumber": 1,
-    "learningPathTitle": "AI Agents - Overview",
-    "learningPathDescription": "Introduction to AI agents and their capabilities in Azure Database for PostgreSQL."
+    "priority": "P0"
   },
   {
-    "title": "Build an AI Agent with Azure Database for PostgreSQL and Azure AI Agent Service",
-    "description": "AI agents combine large language models with external tools and databases to automate workflows, improve information retrieval, and enable natural language interactions with data. This article walks you through creating an intelligent AI agent that searches and analyzes data in Azure Database for PostgreSQL, using a legal research assistant as an example.",
-    "website": "https://learn.microsoft.com/azure/postgresql/flexible-server/generative-ai-agents",
-    "source": "https://learn.microsoft.com/azure/postgresql/flexible-server/generative-ai-agents",
+    "title": "Build an AI Agent with Azure Database for PostgreSQL, Microsoft Foundry and MCP",
+    "description": "AI agents combine large language models with external tools and databases to automate workflows, improve information retrieval, and enable natural language interactions with data. This article walks you through creating an intelligent AI agent using Microsoft Foundry and Azure Database for PostgreSQL, using Model Context Protocol (MCP).",
+    "website": "https://learn.microsoft.com/azure/postgresql/azure-ai/generative-ai-foundry-integration",
+    "source": "https://learn.microsoft.com/azure/postgresql/azure-ai/generative-ai-foundry-integration",
     "image": "./img/build-with-azure-ai-agent-service.png",
     "tags": [
       "documentation",
       "overview",
       "agents",
       "learning-path",
-      "building-ai-agents",
+      "building-ai-apps-flex",
       "flexibleserver",
       "genai",
       "tutorial",
@@ -882,9 +1307,9 @@
     ],
     "date": "2025-06-27",
     "priority": "P0",
-    "tileNumber": 2,
-    "learningPathTitle": "Build an AI Agent with Azure Database for PostgreSQL and Azure AI Agent Service",
-    "learningPathDescription": "Introduction to AI agents and their capabilities in Azure Database for PostgreSQL."
+    "tileNumber": 7,
+    "learningPathTitle": "Build an AI Agent with Azure Database for PostgreSQL, Microsoft Foundry and MCP",
+    "learningPathDescription": "A guide to building an intelligent AI agent using Microsoft Foundry and Azure Database for PostgreSQL, leveraging the Model Context Protocol (MCP)."
   },
   {
     "title": "AgenticShop: E-imagined Shopping Experience for the Era of AI Agents",
@@ -895,7 +1320,7 @@
     "tags": [
       "featured",
       "learning-path",
-      "building-ai-agents",
+      "building-ai-apps-flex",
       "flexibleserver",
       "genai",
       "solution-accelerator",
@@ -908,9 +1333,8 @@
     ],
     "date": "2025-8-26",
     "priority": "P0",
-    "tileNumber": 3,
-    "learningPathTitle": "Develop using Agentic AI Architecture: AgenticShop",
-    "learningPathDescription": "Learn to develop applications using the Agentic AI architecture with AgenticShop."
+    "learningPathTitle": "Solution Accelerator: Build an AgenticShop Using Agentic AI Architecture",
+    "learningPathDescription": "A sample app to demonstrate using the Agentic AI architecture with Azure Database for PostgreSQL."
   },
   {
     "title": "Build AI Agents using Semantic Kernel and PostgreSQL",
@@ -979,7 +1403,7 @@
       "graph",
       "rag",
       "learning-path",
-      "building-genai-apps",
+      "building-ai-apps-flex",
       "flexibleserver",
       "genai",
       "solution-accelerator",
@@ -987,8 +1411,8 @@
     ],
     "date": "2025-02-20",
     "priority": "P0",
-    "tileNumber": 7,
-    "learningPathTitle": "Improve Search Accuracy using Knowledge Graphs (GraphRAG)",
+    "tileNumber": 5,
+    "learningPathTitle": "Improve Search Accuracy Using Knowledge Graphs (GraphRAG)",
     "learningPathDescription": "Discover how to use knowledge graphs and GraphRAG for improved search and recommendations."
   },
   {
@@ -999,8 +1423,6 @@
     "image": "./img/az-mcp-for-az-pg.png",
     "tags": [
       "documentation",
-      "learning-path",
-      "building-ai-agents",
       "flexibleserver",
       "genai",
       "how-to",
@@ -1008,10 +1430,7 @@
       "rag"
     ],
     "date": "2025-05-19",
-    "priority": "P0",
-    "tileNumber": 4,
-    "learningPathTitle": "MCP and the Azure MCP Server",
-    "learningPathDescription": "Overview of MCP and its support for Azure Database for PostgreSQL."
+    "priority": "P0"
   },
   {
     "title": "Demo: Azure AI & pgvector with Azure Database for PostgreSQL",
@@ -1097,8 +1516,6 @@
       "video",
       "agents",
       "flexibleserver",
-      "learning-path",
-      "building-genai-apps",
       "genai",
       "azure-ai-extension",
       "vector-search",
@@ -1107,9 +1524,7 @@
       "graph"
     ],
     "date": "2025-07-08",
-    "priority": "P0",
-    "learningPathTitle": "Video Series: Build AI Apps and Agents with Azure Database for PostgreSQL",
-    "learningPathDescription": "Video series covering AI app and agent development with Azure Database for PostgreSQL."
+    "priority": "P0"
   },
   {
     "title": "Agent-driven, Retrieval-augmented Generation (RAG) Application",
@@ -1263,77 +1678,6 @@
     "priority": "P1"
   },
   {
-    "title": "Announcing a New IDE for PostgreSQL in VS Code from Microsoft",
-    "description": "We are excited to announce the public preview of the brand-new PostgreSQL extension for Visual Studio Code (VS Code), designed to simplify PostgreSQL database management and development workflows. With this extension, you can now manage database objects, draft queries with intelligent assistance from context-aware IntelliSense and our ‘@pgsql’ GitHub Copilot agent—all without ever leaving your favorite code editor.",
-    "website": "https://techcommunity.microsoft.com/blog/adforpostgresql/announcing-a-new-ide-for-postgresql-in-vs-code-from-microsoft/4414648",
-    "source": "https://techcommunity.microsoft.com/blog/adforpostgresql/announcing-a-new-ide-for-postgresql-in-vs-code-from-microsoft/4414648",
-    "image": "./img/azure-db-for-postgres-blog.png",
-    "tags": [
-      "featured",
-      "announcement",
-      "flexibleserver",
-      "app-dev",
-      "visual-studio-code-extension",
-      "connect-&-query",
-      "blog"
-    ],
-    "date": "2025-05-19",
-    "priority": "P0",
-    "meta": {
-      "author": "Josh MSFT",
-      "date": "May 19, 2025",
-      "duration": "5 min read"
-    }
-  },
-  {
-    "title": "Build 2025: New Generative AI Features in Azure Database for PostgreSQL",
-    "description": "At Microsoft Build 2025, we announced new Generative AI capabilities in Azure Database for PostgreSQL flexible server, unlocking intelligent database features for next-generation applications. This article provides an overview of these innovations and how they enable smarter data-driven AI solutions using patterns like Retrieval-Augmented Generation (RAG).",
-    "website": "https://techcommunity.microsoft.com/blog/adforpostgresql/new-generative-ai-features-in-azure-database-for-postgresql/4414858",
-    "source": "https://techcommunity.microsoft.com/blog/adforpostgresql/new-generative-ai-features-in-azure-database-for-postgresql/4414858",
-    "image": "./img/build-2025-new-gen-ai-features.png",
-    "tags": [
-      "announcement",
-      "flexibleserver",
-      "genai",
-      "vector-search",
-      "agents",
-      "azure-ai-extension",
-      "rag",
-      "semantic-search",
-      "graph",
-      "blog"
-    ],
-    "date": "2025-05-19",
-    "priority": "P0",
-    "meta": {
-      "author": "Maxim Lukiyanov",
-      "date": "May 19, 2025",
-      "duration": "5 min read"
-    }
-  },
-  {
-    "title": "DiskANN on Azure Database for PostgreSQL – Now Generally Available",
-    "description": "DiskANN for Azure Database for PostgreSQL is now generally available, delivering fast, scalable, and cost-efficient vector search for production workloads. This article highlights new GA features, performance optimizations like product quantization, and benchmark results showing up to 10x faster speed and 96x lower memory usage compared to pgvector HNSW.",
-    "website": "https://techcommunity.microsoft.com/blog/adforpostgresql/diskann-on-azure-database-for-postgresql-%E2%80%93-now-generally-available/4414723",
-    "source": "https://techcommunity.microsoft.com/blog/adforpostgresql/diskann-on-azure-database-for-postgresql-%E2%80%93-now-generally-available/4414723",
-    "image": "./img/diskann-on-azure-db.png",
-    "tags": [
-      "announcement",
-      "flexibleserver",
-      "genai",
-      "vector-search",
-      "rag",
-      "blog"
-    ],
-    "date": "2025-05-19",
-    "priority": "P0",
-    "meta": {
-      "author": "abeomor-msft",
-      "date": "May 19, 2025",
-      "duration": "6 min read"
-    }
-  },
-  {
     "title": "Video Series: Build Ai-ready Apps and Agents with PostgreSQL on Azure",
     "description": "This blog introduces a four-part video series,where  you'll discover how to build intelligent applications using the AI capabilities of Azure Database for PostgreSQL. Learn how to orchestrate agents, enhance search accuracy, integrate Azure AI services, and much more—all while leveraging the power of PostgreSQL and cutting-edge AI tools like the Visual Studio Code extension for PostgreSQL and GitHub copilot.",
     "website": "https://techcommunity.microsoft.com/blog/adforpostgresql/build-ai-ready-apps-and-agents-with-postgresql-on-azure/4428001",
@@ -1359,80 +1703,6 @@
       "author": "iemejia",
       "date": "Jul 02, 2025",
       "duration": "3 min read"
-    }
-  },
-  {
-    "title": "Announcing Azure HorizonDB",
-    "description": "At Microsoft Ignite, we unveiled the preview of Azure HorizonDB, a fully managed Postgres-compatible database service designed to meet the needs of modern enterprise workloads. The cloud native architecture of Azure HorizonDB delivers highly scalable shared storage, elastic scale-out compute, and a tiered cache optimized for running cloud applications of any scale.",
-    "website": "https://techcommunity.microsoft.com/blog/adforpostgresql/announcing-azure-horizondb/4469710",
-    "source": "https://techcommunity.microsoft.com/blog/adforpostgresql/announcing-azure-horizondb/4469710",
-    "image": "./img/announcing-horizondb.png",
-    "tags": [
-      "announcement",
-      "horizondb",
-      "genai",
-      "fundamentals",
-      "blog",
-      "featured"
-    ],
-    "date": "2025-11-18",
-    "priority": "P0",
-    "meta": {
-      "author": "Charles Feddersen",
-      "date": "Nov 18, 2025",
-      "duration": "4 min read"
-    }
-  },
-  {
-    "title": "Build Smarter with Azure HorizonDB",
-    "description": "At Microsoft Ignite, we announced Azure HorizonDB, a new PostgreSQL database service designed to power modern workloads and AI-driven applications. This blog explores HorizonDB’s advanced AI features such as DiskANN filtering, built-in model management, and Microsoft Foundry integration, along with new tools for efficient database management, including the GA release of the PostgreSQL extension for Visual Studio Code.",
-    "website": "https://techcommunity.microsoft.com/blog/adforpostgresql/build-smarter-with-azure-horizondb/4470302",
-    "source": "https://techcommunity.microsoft.com/blog/adforpostgresql/build-smarter-with-azure-horizondb/4470302",
-    "image": "./img/build-with-horizondb.png",
-    "tags": [
-      "announcement",
-      "horizondb",
-      "blog",
-      "genai",
-      "azure-ai-extension",
-      "connect-&-query",
-      "rag",
-      "semantic-search",
-      "graph",
-      "agents",
-      "featured",
-      "visual-studio-code-extension",
-      "app-dev"
-    ],
-    "date": "2025-11-18",
-    "priority": "P0",
-    "meta": {
-      "author": "Maxim Lukiyanov",
-      "date": "Nov 18, 2025",
-      "duration": "5 min read"
-    }
-  },
-  {
-    "title": "Introducing Model Context Protocol (MCP) Server for Azure Database for PostgreSQL (preview)",
-    "description": "The Model Context Protocol (MCP) enables standardized, scalable, and secure integration between AI models and external data sources. This article introduces the public preview of the MCP Server for Azure Database for PostgreSQL and shows how it helps AI applications interact with your data seamlessly.",
-    "website": "https://techcommunity.microsoft.com/blog/adforpostgresql/introducing-model-context-protocol-mcp-server-for-azure-database-for-postgresql-/4404360",
-    "source": "https://techcommunity.microsoft.com/blog/adforpostgresql/introducing-model-context-protocol-mcp-server-for-azure-database-for-postgresql-/4404360",
-    "image": "./img/introducing-mcp-for-az.png",
-    "tags": [
-      "documentation",
-      "genai",
-      "how-to",
-      "agents",
-      "rag",
-      "blog",
-      "flexibleserver"
-    ],
-    "date": "2025-4-17",
-    "priority": "P1",
-    "meta": {
-      "author": "Shreya R. Aithal",
-      "date": "Apr 18, 2025",
-      "duration": "6 min read"
     }
   },
   {
@@ -1530,12 +1800,17 @@
     }
   },
   {
-    "title": "PgBouncer Best Practices in Azure Database for PostgreSQL – Part 1",
+    "title": "PgBouncer Best Practices in Azure Database for PostgreSQL - Part 1",
     "description": "PgBouncer is a lightweight connection pooler that optimizes PostgreSQL performance by managing thousands of client connections efficiently. This article outlines best practices for configuring PgBouncer in Azure Database for PostgreSQL to prevent resource bottlenecks and ensure scalable, high-performance workloads.",
     "website": "https://techcommunity.microsoft.com/blog/adforpostgresql/pgbouncer-best-practices-in-azure-database-for-postgresql-%E2%80%93-part-1/4453323",
     "source": "https://techcommunity.microsoft.com/blog/adforpostgresql/pgbouncer-best-practices-in-azure-database-for-postgresql-%E2%80%93-part-1/4453323",
     "image": "./img/pgbouncer.png",
-    "tags": ["flexibleserver", "app-dev", "best-practices", "blog"],
+    "tags": [
+      "flexibleserver",
+      "app-dev",
+      "best-practices",
+      "blog"
+    ],
     "date": "2025-10-3",
     "priority": "P1",
     "meta": {
@@ -1590,7 +1865,7 @@
     "image": "./img/ai-agents-workshop.png",
     "tags": [
       "learning-path",
-      "building-ai-agents",
+      "building-ai-apps-flex",
       "agents",
       "flexibleserver",
       "genai",
@@ -1603,7 +1878,7 @@
     ],
     "date": "2026-4-15",
     "priority": "P0",
-    "learningPathTitle": "Workshop: Build advanced AI agents with PostgreSQL",
+    "learningPathTitle": "Workshop: Build Advanced AI Agents with PostgreSQL",
     "learningPathDescription": "Join our hands-on workshop to learn how to build advanced AI agents using PostgreSQL on Azure."
   },
   {

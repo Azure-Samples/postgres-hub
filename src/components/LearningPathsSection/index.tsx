@@ -64,8 +64,8 @@ export default function LearningPathsSection({
   const currentTags = searchParams.getAll("tags");
   const LEARNING_PATH_TAGS = [
     "developing-core-applications",
-    "building-genai-apps",
-    "building-ai-agents",
+    "building-ai-apps-flex",
+    "building-ai-apps-horizondb",
   ];
   const isLearningPathFiltered = currentTags.some((t) =>
     LEARNING_PATH_TAGS.includes(t),
@@ -81,12 +81,12 @@ export default function LearningPathsSection({
     } else if (idx === 1) {
       // Only set the filter for path 2
       const params = new URLSearchParams();
-      params.set("tags", "building-genai-apps");
+      params.set("tags", "building-ai-apps-flex");
       newSearch = params.toString();
     } else if (idx === 2) {
       // Only set the filter for path 3
       const params = new URLSearchParams();
-      params.set("tags", "building-ai-agents");
+      params.set("tags", "building-ai-apps-horizondb");
       newSearch = params.toString();
     }
     const scrollToGallery = () => {
