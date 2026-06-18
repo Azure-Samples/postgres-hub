@@ -123,6 +123,12 @@ const config = {
               href: "https://aka.ms/pgfeedback",
               variant: "outlined",
               icon: "Lightbulb",
+            },
+            {
+              label: "Report an Issue",
+              href: "https://github.com/Azure-Samples/postgres-hub/issues/new?template=feedback.md",
+              variant: "outlined",
+              icon: "Bug",
             }
           ],
         },
@@ -171,24 +177,27 @@ const config = {
             },
           ],
         },
-        // {
-        //   title: "How to Contribute",
-        //   desc: "Help improve Azure PostgreSQL documentation, samples, and tooling.",
-        //   icon: "Handshake",
-        //   iconColor: "#543ef6",
-        //   iconBg: "#edeafd",
-        //   actions: [{ label: "Contribute Guide", href: "/contribute" }],
-        // },
-        // {
-        //   title: "Submit Your Ideas",
-        //   desc: "Share feedback, request features, and vote on improvements to Azure PostgreSQL.",
-        //   icon: "Lightbulb",
-        //   iconColor: "#9a15fa",
-        //   iconBg: "#f5e6fd",
-        //   actions: [
-        //     { label: "Submit Idea", href: "https://aka.ms/pgfeedback" },
-        //   ],
-        // },
+        {
+          title: "How to Contribute",
+          desc: "Help improve this hub — suggest resources, fix issues, or add content.",
+          icon: "Handshake",
+          iconColor: "#543ef6",
+          iconBg: "#edeafd",
+          actions: [
+            {
+              label: "Submit a Resource",
+              href: "https://github.com/Azure-Samples/postgres-hub/issues/new?template=add-resource.yml",
+              variant: "outlined",
+              icon: "Plus",
+            },
+            {
+              label: "Contribution Guide",
+              href: "https://github.com/Azure-Samples/postgres-hub/blob/main/ONBOARDING.md",
+              variant: "outlined",
+              icon: "BookOpen",
+            },
+          ],
+        },
         {
           title: "Events & Webinars",
           desc: "",
@@ -272,19 +281,22 @@ const config = {
         },
         items: [
           {
+            type: "custom-NavbarButtonGithub",
+            position: "right",
+          },
+          {
             type: "custom-NavbarButton",
             position: "right",
           },
-          // {
-          //   type: "custom-NavbarButtonGithub",
-          //   href: "https://github.com/NucleoidJS/Nucleoid",
-          //   position: "right",
-          // },
         ],
       },
       footer: {
         style: "light",
         links: [
+          {
+            label: "Source on GitHub",
+            to: "https://github.com/Azure-Samples/postgres-hub",
+          },
           {
             label: "Privacy & Cookies",
             to: "https://privacy.microsoft.com/privacystatement",

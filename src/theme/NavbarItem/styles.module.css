@@ -63,4 +63,29 @@
   }
 }
 
+.githubLink {
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+  color: #24292f;
+  transition: color 0.2s ease;
+}
+
+.githubLink:hover {
+  color: #0078d4;
+}
+
+.githubIcon {
+  width: 24px;
+  height: 24px;
+}
+
+[data-theme="dark"] .githubLink {
+  color: #c9d1d9;
+}
+
+[data-theme="dark"] .githubLink:hover {
+  color: #58a6ff;
+}
+
 
