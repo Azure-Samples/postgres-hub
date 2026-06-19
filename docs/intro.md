@@ -3,5 +3,5 @@ sidebar_position: 1
 title: "Contributor Guide"
 ---
 
-## We ♥️ Contributions!
-`azurecosmos-ai-apps` is a community-friendly resource to help developer discover, create, and share.
+## We Love Contributions!
+`postgres-hub` is a community-friendly resource to help developers discover, create, and share.

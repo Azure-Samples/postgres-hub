@@ -13,7 +13,7 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 
 ## How to Contribute
 
-Want to contribute? We'd love to have you on board. Check out the [Contributing](./CONTRIBUTING.md) guide to get started.
+Want to contribute? We'd love to have you on board. Check out the [Contributing](./Contributing.md) guide to get started.
 
 Even if you're not ready to contribute code, your feedback is valuable! You can share your thoughts by [opening an issue](https://github.com/Azure-Samples/postgres-hub/issues/new?template=feedback.md) and selecting the **Feedback** template.
 

@@ -1116,7 +1116,7 @@
     "description": "AI functions in Azure Database for PostgreSQL azure_ai extension introduce a native intelligence layer to relational algebra by integrating large language models directly into the SQL query engine. This feature enables in-database reasoning over operational data, allowing developers to extract and act on hidden semantic relationships for GenAI applications and agents. This article explains the 4 AI functions: generate(), is_true(), extract() and rank() and walks you through how to get started with using them.",
     "website": "https://learn.microsoft.com/azure/postgresql/azure-ai/generative-ai-azure-ai-functions",
     "source": "https://learn.microsoft.com/azure/postgresql/azure-ai/generative-ai-azure-ai-functions",
-    "image": "img/use-semantic-operators.png",
+    "image": "./img/use-semantic-operators.png",
     "tags": [
       "documentation",
       "semantic-search",
@@ -1886,7 +1886,7 @@
     "description": "Watch this video to learn how to build AI powered agents backed by PostgreSQL on Azure using Microsoft Foundry. The video demonstrates how to securely connect agents to PostgreSQL data, use natural language for querying and analytics, and add vector search for more relevant results, while running on Azure infrastructure powered by AMD processors for performance and efficiency at scale.",
     "website": "https://www.youtube.com/watch?v=aMqrpk6ge9A&list=PLlrxD0HtieHhV4nFEPrByYEop29uSQs3Q&index=2",
     "source": "https://www.youtube.com/watch?v=aMqrpk6ge9A&list=PLlrxD0HtieHhV4nFEPrByYEop29uSQs3Q&index=2",
-    "image": "./img/postgresql-like-a-pro-agents.png",
+    "image": "./img/postgresql-like-a-pro-agents.jpg",
     "tags": [
       "flexibleserver",
       "featured",
