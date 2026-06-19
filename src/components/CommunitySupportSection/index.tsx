@@ -128,7 +128,7 @@ const CommunitySupportSection = () => {
                 <div
                   className={styles.cardActions}
                   style={
-                    card.title === "Contact Us" || card.title === "Join the Community" || card.title === "Stay Tuned"
+                    card.title === "Contact Us" || card.title === "Join the Community" || card.title === "Stay Tuned" || card.title === "How to Contribute"
                       ? { flexDirection: "column", width: "100%", gap: 12 }
                       : {}
                   }
@@ -141,7 +141,7 @@ const CommunitySupportSection = () => {
                         : null;
                     const isOutlined = action.variant === "outlined";
                     const fullWidth =
-                      action.fullWidth || card.title === "Contact Us" || card.title === "Join the Community" || card.title === "Stay Tuned";
+                      action.fullWidth || card.title === "Contact Us" || card.title === "Join the Community" || card.title === "Stay Tuned" || card.title === "How to Contribute";
 
                     // support static image/icon paths (e.g. 'img/brand-linkedin.svg' or '/img/...')
                     const isImageIcon =
@@ -167,7 +167,7 @@ const CommunitySupportSection = () => {
                             ? {
                                 width: "100%",
                                 justifyContent:
-                                  card.title === "Contact Us" || card.title === "Join the Community" || card.title === "Stay Tuned"
+                                    card.title === "Contact Us" || card.title === "Join the Community" || card.title === "Stay Tuned" || card.title === "How to Contribute"
                                     ? "flex-start"
                                     : "center",
                               }

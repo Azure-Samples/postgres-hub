@@ -102,62 +102,6 @@ const config = {
         "Connect with fellow developers, get support, and stay tuned with the latest updates in the PostgreSQL ecosystem on Azure.",
       cards: [
         {
-          title: "Contact Us",
-          desc: "Reach out to us for questions or support.",
-          icon: "Mail",
-          actions: [
-            {
-              label: "Email",
-              href: "mailto:AskAzurePostgreSQL@microsoft.com",
-              variant: "outlined",
-              icon: "Mail",
-            },
-            {
-              label: "Technical Support",
-              href: "https://azure.microsoft.com/support/",
-              variant: "outlined",
-              icon: "ExternalLink",
-            },
-            {
-              label: "Submit Your Ideas",
-              href: "https://aka.ms/pgfeedback",
-              variant: "outlined",
-              icon: "Lightbulb",
-            },
-            {
-              label: "Report an Issue",
-              href: "https://github.com/Azure-Samples/postgres-hub/issues/new?template=feedback.md",
-              variant: "outlined",
-              icon: "Bug",
-            }
-          ],
-        },
-        {
-          title: "Stay Tuned",
-          desc: "Stay updated with the latest news, tips, and announcements.",
-          icon: "Bell",
-          actions: [
-            {
-              label: "LinkedIn",
-              href: "https://www.linkedin.com/company/azure-database-for-postgresql/",
-              variant: "outlined",
-              icon: "img/brand-linkedin.svg",
-            },
-            {
-              label: "X",
-              href: "https://x.com/AzureDBPostgres",
-              variant: "outlined",
-              icon: "X",
-            },
-            {
-              label: "Blog",
-              href: "https://aka.ms/azurepostgresblog",
-              variant: "outlined",
-              icon: "BookOpen",
-            },
-          ],
-        },
-        {
           title: "Join the Community",
           desc: "Share feedback, connect and collaborate with Microsoft engineers and other developers.",
           icon: "Users",
@@ -191,8 +135,39 @@ const config = {
               icon: "Plus",
             },
             {
+              label: "Report an Issue",
+              href: "https://github.com/Azure-Samples/postgres-hub/issues/new?template=feedback.md",
+              variant: "outlined",
+              icon: "Bug",
+            },
+            {
               label: "Contribution Guide",
               href: "https://github.com/Azure-Samples/postgres-hub/blob/main/ONBOARDING.md",
+              variant: "outlined",
+              icon: "BookOpen",
+            },
+          ],
+        },
+        {
+          title: "Stay Tuned",
+          desc: "Stay updated with the latest news, tips, and announcements.",
+          icon: "Bell",
+          actions: [
+            {
+              label: "LinkedIn",
+              href: "https://www.linkedin.com/company/azure-database-for-postgresql/",
+              variant: "outlined",
+              icon: "img/brand-linkedin.svg",
+            },
+            {
+              label: "X",
+              href: "https://x.com/AzureDBPostgres",
+              variant: "outlined",
+              icon: "X",
+            },
+            {
+              label: "Blog",
+              href: "https://aka.ms/azurepostgresblog",
               variant: "outlined",
               icon: "BookOpen",
             },
@@ -228,6 +203,31 @@ const config = {
             }
           ],
           actions: [],
+        },
+        {
+          title: "Contact Us",
+          desc: "Reach out to us for questions or support.",
+          icon: "Mail",
+          actions: [
+            {
+              label: "Email",
+              href: "mailto:AskAzurePostgreSQL@microsoft.com",
+              variant: "outlined",
+              icon: "Mail",
+            },
+            {
+              label: "Technical Support",
+              href: "https://azure.microsoft.com/support/",
+              variant: "outlined",
+              icon: "ExternalLink",
+            },
+            {
+              label: "Submit Your Ideas",
+              href: "https://aka.ms/pgfeedback",
+              variant: "outlined",
+              icon: "Lightbulb",
+            }
+          ],
         },
       ],
     },
