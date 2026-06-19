@@ -294,7 +294,7 @@ const config = {
         style: "light",
         links: [
           {
-            label: "Source on GitHub",
+            label: "GitHub",
             to: "https://github.com/Azure-Samples/postgres-hub",
           },
           {
@@ -304,10 +304,6 @@ const config = {
           {
             label: manageCookieLabel,
             to: " ",
-          },
-          {
-            label: "Built With Docusaurus",
-            to: "https://docusaurus.io",
           },
           {
             label: ` © ${new Date().getFullYear()} Microsoft`,
