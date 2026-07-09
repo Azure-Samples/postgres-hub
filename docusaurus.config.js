@@ -102,28 +102,50 @@ const config = {
         "Connect with fellow developers, get support, and stay tuned with the latest updates in the PostgreSQL ecosystem on Azure.",
       cards: [
         {
-          title: "Contact Us",
-          desc: "Reach out to us for questions or support.",
-          icon: "Mail",
+          title: "Join the Community",
+          desc: "Share feedback, connect and collaborate with Microsoft engineers and other developers.",
+          icon: "Users",
+          iconColor: "#20b256",
+          iconBg: "#e6f7ed",
           actions: [
             {
-              label: "Email",
-              href: "mailto:AskAzurePostgreSQL@microsoft.com",
+              label: "Share feedback",
+              href: "https://github.com/Azure-Samples/postgres-hub/discussions/categories/product-feedback",
               variant: "outlined",
-              icon: "Mail",
+              icon: "MessagesSquare",
             },
             {
-              label: "Technical Support",
-              href: "https://azure.microsoft.com/support/",
+              label: "Real-time chat (Coming soon)",
               variant: "outlined",
-              icon: "ExternalLink",
+              icon: "Radio",
+            },
+          ],
+        },
+        {
+          title: "How to Contribute",
+          desc: "Help improve this hub — suggest resources, fix issues, or add content.",
+          icon: "Handshake",
+          iconColor: "#543ef6",
+          iconBg: "#edeafd",
+          actions: [
+            {
+              label: "Submit a resource or idea",
+              href: "https://github.com/Azure-Samples/postgres-hub/discussions/categories/contribute",
+              variant: "outlined",
+              icon: "Plus",
             },
             {
-              label: "Submit Your Ideas",
-              href: "https://aka.ms/pgfeedback",
+              label: "Share feedback",
+              href: "https://github.com/Azure-Samples/postgres-hub/discussions/categories/product-feedback",
               variant: "outlined",
-              icon: "Lightbulb",
-            }
+              icon: "MessagesSquare",
+            },
+            {
+              label: "Contribution Guide",
+              href: "https://github.com/Azure-Samples/postgres-hub/blob/main/ONBOARDING.md",
+              variant: "outlined",
+              icon: "BookOpen",
+            },
           ],
         },
         {
@@ -151,44 +173,6 @@ const config = {
             },
           ],
         },
-        {
-          title: "Join the Community",
-          desc: "Share feedback, connect and collaborate with Microsoft engineers and other developers.",
-          icon: "Users",
-          iconColor: "#20b256",
-          iconBg: "#e6f7ed",
-          actions: [
-            {
-              label: "Developer Forum",
-              href: "https://github.com/Azure-Samples/postgres-hub/discussions",
-              variant: "outlined",
-              icon: "MessagesSquare",
-            },
-            {
-              label: "Real-time chat (Coming soon)",
-              variant: "outlined",
-              icon: "Radio",
-            },
-          ],
-        },
-        // {
-        //   title: "How to Contribute",
-        //   desc: "Help improve Azure PostgreSQL documentation, samples, and tooling.",
-        //   icon: "Handshake",
-        //   iconColor: "#543ef6",
-        //   iconBg: "#edeafd",
-        //   actions: [{ label: "Contribute Guide", href: "/contribute" }],
-        // },
-        // {
-        //   title: "Submit Your Ideas",
-        //   desc: "Share feedback, request features, and vote on improvements to Azure PostgreSQL.",
-        //   icon: "Lightbulb",
-        //   iconColor: "#9a15fa",
-        //   iconBg: "#f5e6fd",
-        //   actions: [
-        //     { label: "Submit Idea", href: "https://aka.ms/pgfeedback" },
-        //   ],
-        // },
         {
           title: "Events & Webinars",
           desc: "",
@@ -219,6 +203,31 @@ const config = {
             }
           ],
           actions: [],
+        },
+        {
+          title: "Contact Us",
+          desc: "Reach out to us for questions or support.",
+          icon: "Mail",
+          actions: [
+            {
+              label: "Email",
+              href: "mailto:AskAzurePostgreSQL@microsoft.com",
+              variant: "outlined",
+              icon: "Mail",
+            },
+            {
+              label: "Technical Support",
+              href: "https://azure.microsoft.com/support/",
+              variant: "outlined",
+              icon: "ExternalLink",
+            },
+            {
+              label: "Submit Your Ideas",
+              href: "https://aka.ms/pgfeedback",
+              variant: "outlined",
+              icon: "Lightbulb",
+            }
+          ],
         },
       ],
     },
@@ -272,19 +281,22 @@ const config = {
         },
         items: [
           {
+            type: "custom-NavbarButtonGithub",
+            position: "right",
+          },
+          {
             type: "custom-NavbarButton",
             position: "right",
           },
-          // {
-          //   type: "custom-NavbarButtonGithub",
-          //   href: "https://github.com/NucleoidJS/Nucleoid",
-          //   position: "right",
-          // },
         ],
       },
       footer: {
         style: "light",
         links: [
+          {
+            label: "GitHub",
+            to: "https://github.com/Azure-Samples/postgres-hub",
+          },
           {
             label: "Privacy & Cookies",
             to: "https://privacy.microsoft.com/privacystatement",
@@ -292,10 +304,6 @@ const config = {
           {
             label: manageCookieLabel,
             to: " ",
-          },
-          {
-            label: "Built With Docusaurus",
-            to: "https://docusaurus.io",
           },
           {
             label: ` © ${new Date().getFullYear()} Microsoft`,

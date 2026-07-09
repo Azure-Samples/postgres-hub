@@ -1,0 +1,110 @@
+name: Submit a Resource
+description: Suggest a new resource (blog, tutorial, sample, video, etc.) to be listed on the PostgreSQL Hub
+title: "[NEW RESOURCE] "
+labels: ["new-resource"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a resource for the PostgreSQL Hub! Fill out the form below and a maintainer will review it for inclusion.
+
+  - type: input
+    id: title
+    attributes:
+      label: Resource Title
+      placeholder: "e.g., Building RAG with PostgreSQL and LangChain"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: "A short summary (1-2 sentences) of what this resource covers and who it helps."
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Resource URL
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: resource_type
+    attributes:
+      label: Resource Type
+      options:
+        - Blog post
+        - Tutorial
+        - Documentation
+        - Video
+        - Workshop
+        - Solution Accelerator
+        - Training / Learning module
+        - Concepts / How-to guide
+    validations:
+      required: true
+
+  - type: dropdown
+    id: service
+    attributes:
+      label: Azure Service
+      options:
+        - Azure Database for PostgreSQL Flexible Server
+        - Azure HorizonDB
+        - Both / Not service-specific
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: content_area
+    attributes:
+      label: Content Area (select all that apply)
+      options:
+        - label: Fundamentals
+        - label: Generative AI
+        - label: App Development
+        - label: Analytics
+
+  - type: checkboxes
+    id: languages
+    attributes:
+      label: Programming Languages (if applicable)
+      options:
+        - label: Python
+        - label: JavaScript / TypeScript
+        - label: ".NET / C#"
+        - label: Java
+        - label: Go
+        - label: PHP
+
+  - type: checkboxes
+    id: ai_topics
+    attributes:
+      label: AI Topics (if applicable)
+      options:
+        - label: RAG (Retrieval-Augmented Generation)
+        - label: Vector Search
+        - label: Agents
+        - label: Semantic Search
+        - label: Graph (Apache AGE)
+        - label: Azure AI Extension
+
+  - type: textarea
+    id: image
+    attributes:
+      label: Thumbnail Image (optional)
+      description: "Drag and drop an image here, or paste a URL. Ideal size: 600x400px, PNG or JPG."
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Context (optional)
+      placeholder: "Anything else we should know? e.g., publication date, author, related resources."
+    validations:
+      required: false

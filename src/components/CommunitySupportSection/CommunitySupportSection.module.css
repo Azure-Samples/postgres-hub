@@ -31,36 +31,32 @@
 }
 
 .cardsGrid {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     gap: 32px;
     margin: 40px auto 0;
     justify-content: center;
-    justify-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     max-width: 1200px;
     padding: 0 16px;
 }
 
-/* Large screens - 4 columns */
+/* Large screens - 3 columns */
 @media (min-width: 1200px) {
     .cardsGrid {
-        grid-template-columns: repeat(4, 1fr);
-        max-width: 1400px;
+        max-width: 1200px;
     }
 }
 
-/* Medium-large screens - 3 columns */
+/* Medium-large screens */
 @media (max-width: 1199px) and (min-width: 900px) {
     .cardsGrid {
-        grid-template-columns: repeat(3, 1fr);
         max-width: 900px;
     }
 }
 
-/* Medium screens - 2 columns */
+/* Medium screens */
 @media (max-width: 899px) and (min-width: 600px) {
     .cardsGrid {
-        grid-template-columns: repeat(2, 1fr);
         max-width: 600px;
     }
 }
@@ -68,7 +64,6 @@
 /* Small screens - 1 column */
 @media (max-width: 599px) {
     .cardsGrid {
-        grid-template-columns: 1fr;
         max-width: 400px;
         gap: 24px;
         padding: 0 16px;
@@ -88,8 +83,8 @@
   transition: box-shadow 0.2s;
   row-gap: 12px;
   height: 300px;
-  width: 100%;
-  max-width: 400px;
+  width: calc((100% - 64px) / 3);
+  max-width: 380px;
   min-width: 280px;
 }
 
