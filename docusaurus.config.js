@@ -109,8 +109,8 @@ const config = {
           iconBg: "#e6f7ed",
           actions: [
             {
-              label: "Developer Forum",
-              href: "https://github.com/Azure-Samples/postgres-hub/discussions/categories/feedback",
+              label: "Share feedback",
+              href: "https://github.com/Azure-Samples/postgres-hub/discussions/categories/product-feedback",
               variant: "outlined",
               icon: "MessagesSquare",
             },
@@ -129,8 +129,8 @@ const config = {
           iconBg: "#edeafd",
           actions: [
             {
-              label: "Submit a Resource",
-              href: "https://github.com/Azure-Samples/postgres-hub/discussions/categories/contributions",
+              label: "Submit a resource or idea",
+              href: "https://github.com/Azure-Samples/postgres-hub/discussions/categories/contribute",
               variant: "outlined",
               icon: "Plus",
             },
