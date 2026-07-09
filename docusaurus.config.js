@@ -110,7 +110,7 @@ const config = {
           actions: [
             {
               label: "Developer Forum",
-              href: "https://github.com/Azure-Samples/postgres-hub/discussions",
+              href: "https://github.com/Azure-Samples/postgres-hub/discussions/categories/feedback",
               variant: "outlined",
               icon: "MessagesSquare",
             },
@@ -130,7 +130,7 @@ const config = {
           actions: [
             {
               label: "Submit a Resource",
-              href: "https://github.com/Azure-Samples/postgres-hub/issues/new?template=add-resource.yml",
+              href: "https://github.com/Azure-Samples/postgres-hub/discussions/categories/contributions",
               variant: "outlined",
               icon: "Plus",
             },
