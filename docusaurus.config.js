@@ -135,10 +135,10 @@ const config = {
               icon: "Plus",
             },
             {
-              label: "Report an Issue",
-              href: "https://github.com/Azure-Samples/postgres-hub/issues/new?template=feedback.md",
+              label: "Share feedback",
+              href: "https://github.com/Azure-Samples/postgres-hub/discussions/categories/product-feedback",
               variant: "outlined",
-              icon: "Bug",
+              icon: "MessagesSquare",
             },
             {
               label: "Contribution Guide",
