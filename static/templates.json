@@ -68,7 +68,7 @@
     "description": "Use generative AI directly in SQL with the azure_ai extension — generate embeddings, rerank results, extract entities and relationships, reason over text, and produce structured outputs using models from Microsoft Foundry. Build GenAI-driven applications without leaving the database.",
     "website": "https://learn.microsoft.com/en-us/azure/horizondb/ai/ai-functions",
     "source": "https://learn.microsoft.com/en-us/azure/horizondb/ai/ai-functions",
-        "image": "./img/horizondb-ai-functions.PNG",
+    "image": "./img/horizondb-ai-functions.PNG",
     "tags": [
       "documentation",
       "horizondb",
@@ -1922,5 +1922,18 @@
     "learningPathTitle": "Get Started for Free with an Azure Free Account",
     "learningPathDescription": "Create and use an Azure Database for PostgreSQL flexible server instance for free using an Azure free account!",
     "priority": "P0"
+  },
+  {
+    "title": "PostgreSQL Meets AI at POSETTE: An Event for Postgres 2026 (T-3 weeks)",
+    "description": "POSETTE: An Event for Postgres 2026 is where that evolution comes into focus, please visit conference’s site to register and add the event to your...",
+    "website": "https://techcommunity.microsoft.com/blog/adforpostgresql/postgresql-meets-ai-at-posette-an-event-for-postgres-2026-t-3-weeks/4523958",
+    "source": "https://techcommunity.microsoft.com/blog/adforpostgresql/postgresql-meets-ai-at-posette-an-event-for-postgres-2026-t-3-weeks/4523958",
+    "image": "./img/placeholder.png",
+    "tags": [
+      "featured",
+      "genai",
+      "blog"
+    ],
+    "priority": "P1"
   }
 ]
