@@ -68,7 +68,7 @@
     "description": "Use generative AI directly in SQL with the azure_ai extension — generate embeddings, rerank results, extract entities and relationships, reason over text, and produce structured outputs using models from Microsoft Foundry. Build GenAI-driven applications without leaving the database.",
     "website": "https://learn.microsoft.com/en-us/azure/horizondb/ai/ai-functions",
     "source": "https://learn.microsoft.com/en-us/azure/horizondb/ai/ai-functions",
-        "image": "./img/horizondb-ai-functions.PNG",
+    "image": "./img/horizondb-ai-functions.PNG",
     "tags": [
       "documentation",
       "horizondb",
@@ -1922,5 +1922,20 @@
     "learningPathTitle": "Get Started for Free with an Azure Free Account",
     "learningPathDescription": "Create and use an Azure Database for PostgreSQL flexible server instance for free using an Azure free account!",
     "priority": "P0"
+  },
+  {
+    "title": "Quickstart: Use a Bicep template to create an elastic cluster with Azure Database for PostgreSQL",
+    "description": "In this Quickstart, learn how to create an Azure Database for PostgreSQL flexible server instance with elastic clusters by using a Bicep template.",
+    "website": "https://learn.microsoft.com/en-us/azure/postgresql/elastic-clusters/quickstart-create-elastic-cluster-bicep",
+    "source": "https://learn.microsoft.com/en-us/azure/postgresql/elastic-clusters/quickstart-create-elastic-cluster-bicep",
+    "image": "./img/placeholder.png",
+    "tags": [
+      "flexibleserver",
+      "how-to",
+      "tutorial",
+      "documentation"
+    ],
+    "priority": "P0",
+    "date": "2025-12-22"
   }
 ]
