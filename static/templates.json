@@ -193,8 +193,8 @@
     "priority": "P0"
   },
   {
-    "title": "Full-Text Search with pg_fts",
-    "description": "Add BM25-ranked full-text search to your database with the pg_fts extension. Supports fuzzy matching, phrase proximity, and CJK language support — no separate search service required.",
+    "title": "Full-Text Search with pg_textsearch",
+    "description": "Add BM25-ranked full-text search to Azure HorizonDB with the pg_textsearch extension. Run top-k keyword retrieval next to relational data and combine it with pgvector and DiskANN for hybrid search.",
     "website": "https://learn.microsoft.com/en-us/azure/horizondb/ai/full-text-search",
     "source": "https://learn.microsoft.com/en-us/azure/horizondb/ai/full-text-search",
     "image": "./img/horizondb-full-text-search.PNG",
