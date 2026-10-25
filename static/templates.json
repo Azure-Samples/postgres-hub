@@ -1924,6 +1924,27 @@
     "priority": "P0"
   },
   {
+    "title": "Decision Point: From Gameplay to AI Agent Development",
+    "description": "Step into the game, climb the leaderboard, and see how you stack up. Then take on the next challenge by building an AI agent with Azure HorizonDB.",
+    "website": "https://azure-samples.github.io/<repo-link>/",
+    "source": "https://azure-samples.github.io/<repo-link>",
+    "image": "./img/play-the-game-then-build-the-agent.png",
+    "tags": [
+      "featured",
+      "game",
+      "interactive",
+      "hackathon",
+      "genai",
+      "horizondb",
+      "genai-overview"
+    ],
+    "date": "2026-10-25",
+    "priority": "P0",
+    "tileNumber": 10,
+    "learningPathTitle": "Decision Point: From Gameplay to AI Agent Development",
+    "learningPathDescription": "Step into the game, climb the leaderboard, and see how you stack up. Then take on the next challenge by building an AI agent with Azure HorizonDB."
+  },
+  {
     "title": "Build a Knowledge Graph in Azure HorizonDB with AI Functions and Apache AGE",
     "description": "Knowledge graphs appear in every AI architecture diagram, every conference keynote and every AI strategy deck. Yet the most common question we hear from...",
     "website": "https://techcommunity.microsoft.com/blog/adforpostgresql/build-a-knowledge-graph-in-azure-horizondb-with-ai-functions-and-apache-age/4523394",
