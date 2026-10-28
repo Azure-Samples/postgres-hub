@@ -1926,9 +1926,9 @@
   {
     "title": "Decision Point: From Gameplay to AI Agent Development",
     "description": "Step into the game, climb the leaderboard, and see how you stack up. Then take on the next challenge by building an AI agent with Azure HorizonDB.",
-    "website": "https://azure-samples.github.io/<repo-link>/",
-    "source": "https://azure-samples.github.io/<repo-link>",
-    "image": "./img/play-the-game-then-build-the-agent.png",
+    "website": "https://azure-samples.github.io/decision-point/",
+    "source": "https://azure-samples.github.io/decision-point/",
+    "image": "./img/decision-point-game.png",
     "tags": [
       "featured",
       "game",
