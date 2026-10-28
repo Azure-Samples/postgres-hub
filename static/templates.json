@@ -1941,9 +1941,9 @@
   {
     "title": "Unlocking Superpowers of PostgreSQL with the VS Code Extension.",
     "description": "Query, manage, and explore your Postgres databases without leaving your editor. Install the extension and learn it hands-on with the Postgres Like a Pro series.",
-    "website": "https://azure-samples.github.io/postgres-like-a-pro-vscode/",
-    "source": "https://azure-samples.github.io/postgres-like-a-pro-vscode/",
-    "image": "./img/postgres-like-a-pro-vscode.png",
+    "website": "https://azure-samples.github.io/postgres-like-a-pro-vs-code/",
+    "source": "https://azure-samples.github.io/postgres-like-a-pro-vs-code/",
+    "image": "./img/postgres-like-a-pro-vs-code.png",
     "tags": [
       "video",
       "app-dev",
