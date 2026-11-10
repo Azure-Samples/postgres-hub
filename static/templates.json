@@ -1956,5 +1956,27 @@
     "tileNumber": 9,
     "learningPathTitle": "Unlocking Superpowers of PostgreSQL with the VS Code Extension.",
     "learningPathDescription": "Query, manage, and explore your Postgres databases without leaving your editor. Install the extension and learn it hands-on with the Postgres Like a Pro series."
+  },
+  {
+    "title": "Decision Point: From Gameplay to AI Agent Development",
+    "description": "Step into the game, climb the leaderboard, and see how you stack up. Then take on the next challenge by building an AI agent with Azure HorizonDB.",
+    "website": "https://azure-samples.github.io/decision-point/",
+    "source": "https://azure-samples.github.io/decision-point/",
+    "image": "./img/decision-point-game.png",
+    "tags": [
+      "featured",
+      "game",
+      "interactive",
+      "solution-accelerator",
+      "hackathon",
+      "genai",
+      "horizondb",
+      "genai-overview"
+    ],
+    "date": "2026-10-25",
+    "priority": "P0",
+    "tileNumber": 10,
+    "learningPathTitle": "Decision Point: From Gameplay to AI Agent Development",
+    "learningPathDescription": "Step into the game, climb the leaderboard, and see how you stack up. Then take on the next challenge by building an AI agent with Azure HorizonDB."
   }
 ]
